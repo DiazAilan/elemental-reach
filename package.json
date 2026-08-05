@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "import:powers": "node scripts/import-sick-powers.mjs"
+    "import:powers": "node scripts/import-sick-powers.mjs",
+    "build:gh-pages": "ng build --base-href=/elemental-reach/"
   },
   "private": true,
   "packageManager": "npm@11.6.2",
