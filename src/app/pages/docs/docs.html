@@ -1,0 +1,33 @@
+<article class="docs">
+  <h1>Search syntax</h1>
+  <p class="lede">
+    Elemental Reach uses a SICK-compatible query language.
+    Combine free text with field filters. Terms separated by spaces are ANDed;
+    use <code>|</code> for OR and <code>!</code> for NOT.
+  </p>
+
+  <h2>Fields</h2>
+  <p>
+    <code>set</code>, <code>type</code>, <code>name</code>, <code>cost</code>,
+    <code>speed</code>, <code>range</code>, <code>target</code>,
+    <code>elements</code>, <code>artist</code>, <code>description</code>
+  </p>
+
+  <h2>Examples</h2>
+  <ul>
+    @for (ex of examples; track ex.query) {
+      <li>
+        <a [routerLink]="['/']" [queryParams]="{ query: ex.query }"><code>{{ ex.query }}</code></a>
+        <span>{{ ex.note }}</span>
+      </li>
+    }
+  </ul>
+
+  <h2>Tips</h2>
+  <ul class="tips">
+    <li>Comparisons on numbers: <code>cost:&lt;3</code>, <code>range:&gt;=2</code>, <code>cost:=1</code></li>
+    <li>Quotes for multi-word phrases: <code>"add 1 presence"</code></li>
+    <li>Bare words like <code>major</code>, <code>minor</code>, or <code>unique</code> match the type field via free text</li>
+    <li>Press <kbd>s</kbd> anywhere (outside inputs) to focus the search box</li>
+  </ul>
+</article>

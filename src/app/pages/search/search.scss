@@ -1,0 +1,216 @@
+.search-hero {
+  margin-bottom: 1.25rem;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.25rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.35rem;
+}
+
+.lede {
+  margin: 0 0 1rem;
+  color: color-mix(in oklab, var(--ink) 70%, transparent);
+  max-width: 40rem;
+}
+
+kbd {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 0.1em 0.4em;
+  border: 1px solid color-mix(in oklab, var(--ink) 20%, transparent);
+  border-radius: 4px;
+  background: color-mix(in oklab, var(--paper) 70%, white);
+}
+
+.search-label {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+input[type='search'] {
+  width: 100%;
+  font: inherit;
+  font-size: 1.05rem;
+  padding: 0.85rem 1rem;
+  border: 1px solid color-mix(in oklab, var(--ink) 18%, transparent);
+  border-radius: 10px;
+  background: color-mix(in oklab, var(--paper) 60%, white);
+  color: var(--ink);
+  box-shadow: 0 1px 0 color-mix(in oklab, var(--ink) 6%, transparent);
+}
+
+input[type='search']:focus {
+  outline: 2px solid var(--moss);
+  outline-offset: 2px;
+}
+
+.meta {
+  margin: 0.65rem 0 0;
+  font-size: 0.9rem;
+  color: color-mix(in oklab, var(--ink) 60%, transparent);
+}
+
+.meta code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+}
+
+.table-wrap {
+  overflow-x: auto;
+  border: 1px solid color-mix(in oklab, var(--ink) 12%, transparent);
+  border-radius: 12px;
+  background: color-mix(in oklab, var(--paper) 55%, white);
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+}
+
+th,
+td {
+  padding: 0.65rem 0.75rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid color-mix(in oklab, var(--ink) 8%, transparent);
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: color-mix(in oklab, var(--paper) 40%, white);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: color-mix(in oklab, var(--ink) 65%, transparent);
+}
+
+th button {
+  all: unset;
+  cursor: pointer;
+  font: inherit;
+  letter-spacing: inherit;
+  text-transform: inherit;
+}
+
+th button:hover {
+  color: var(--moss-deep);
+}
+
+td a {
+  color: var(--ink);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+td a:hover {
+  color: var(--moss-deep);
+  text-decoration: underline;
+}
+
+.desc {
+  margin-top: 0.25rem;
+  color: color-mix(in oklab, var(--ink) 58%, transparent);
+  font-size: 0.85rem;
+  line-height: 1.35;
+  max-width: 28rem;
+}
+
+.num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+}
+
+.badge {
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 0.2rem 0.45rem;
+  border-radius: 999px;
+  white-space: nowrap;
+  max-width: 11rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.badge.minor {
+  background: color-mix(in oklab, var(--moss) 22%, white);
+  color: var(--moss-deep);
+}
+
+.badge.major {
+  background: color-mix(in oklab, var(--clay) 28%, white);
+  color: color-mix(in oklab, var(--clay) 70%, black);
+}
+
+.badge.unique {
+  background: color-mix(in oklab, var(--sky) 28%, white);
+  color: color-mix(in oklab, var(--sky) 55%, black);
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.25rem;
+}
+
+.el {
+  font-size: 0.7rem;
+  font-weight: 600;
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  background: color-mix(in oklab, var(--ink) 8%, white);
+}
+
+.el[data-el='Sun'] {
+  background: #f6e27a;
+}
+.el[data-el='Moon'] {
+  background: #d5d8e8;
+}
+.el[data-el='Fire'] {
+  background: #f0a07a;
+}
+.el[data-el='Air'] {
+  background: #c9e7f2;
+}
+.el[data-el='Water'] {
+  background: #8ec6e6;
+}
+.el[data-el='Earth'] {
+  background: #c4a882;
+}
+.el[data-el='Plant'] {
+  background: #9dcb8c;
+}
+.el[data-el='Animal'] {
+  background: #e0b48a;
+}
+
+.empty {
+  text-align: center;
+  padding: 2rem;
+  color: color-mix(in oklab, var(--ink) 55%, transparent);
+}
+
+@media (max-width: 800px) {
+  .desc {
+    max-width: 16rem;
+  }
+
+  th:nth-child(5),
+  td:nth-child(5),
+  th:nth-child(6),
+  td:nth-child(6),
+  th:nth-child(8),
+  td:nth-child(8) {
+    display: none;
+  }
+}

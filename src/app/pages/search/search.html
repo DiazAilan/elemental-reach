@@ -1,0 +1,79 @@
+<section class="search-hero">
+  <h1>Power search</h1>
+  <p class="lede">
+    Search Spirit Island powers with SICK-compatible syntax.
+    Press <kbd>s</kbd> to focus.
+  </p>
+
+  <label class="search-label" for="power-search">Query</label>
+  <input
+    id="power-search"
+    type="search"
+    name="query"
+    autocomplete="off"
+    spellcheck="false"
+    placeholder='e.g. elements:plant elements:earth cost:&lt;5'
+    [ngModel]="queryInput()"
+    (ngModelChange)="onInput($event)"
+    (blur)="onBlur()"
+  />
+
+  <p class="meta">
+    @if (!loaded()) {
+      Loading catalog…
+    } @else if (error(); as err) {
+      Failed to load cards: {{ err }}
+    } @else {
+      {{ resultCount() }} of {{ totalCount() }} powers
+      @if (activeQuery()) {
+        · matching <code>{{ activeQuery() }}</code>
+      }
+    }
+  </p>
+</section>
+
+@if (loaded() && !error()) {
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th><button type="button" (click)="setSort('type')">Type{{ sortIndicator('type') }}</button></th>
+          <th><button type="button" (click)="setSort('name')">Name{{ sortIndicator('name') }}</button></th>
+          <th><button type="button" (click)="setSort('cost')">Cost{{ sortIndicator('cost') }}</button></th>
+          <th><button type="button" (click)="setSort('speed')">Speed{{ sortIndicator('speed') }}</button></th>
+          <th><button type="button" (click)="setSort('range')">Range{{ sortIndicator('range') }}</button></th>
+          <th><button type="button" (click)="setSort('target')">Target{{ sortIndicator('target') }}</button></th>
+          <th>Elements</th>
+          <th><button type="button" (click)="setSort('artist')">Artist{{ sortIndicator('artist') }}</button></th>
+        </tr>
+      </thead>
+      <tbody>
+        @for (card of results(); track card.id) {
+          <tr>
+            <td><span class="badge" [class]="typeClass(card.type)">{{ card.type.replace('Unique Power: ', 'Unique · ') }}</span></td>
+            <td>
+              <a [routerLink]="['/card', card.id]">{{ card.name }}</a>
+              <div class="desc">{{ card.description }}</div>
+            </td>
+            <td class="num">{{ card.cost }}</td>
+            <td>{{ card.speed }}</td>
+            <td>{{ formatRange(card.range) }}</td>
+            <td>{{ card.target }}</td>
+            <td>
+              <div class="elements">
+                @for (el of card.elements; track el) {
+                  <span class="el" [attr.data-el]="el">{{ el }}</span>
+                }
+              </div>
+            </td>
+            <td>{{ card.artist }}</td>
+          </tr>
+        } @empty {
+          <tr>
+            <td colspan="8" class="empty">No powers match this query.</td>
+          </tr>
+        }
+      </tbody>
+    </table>
+  </div>
+}

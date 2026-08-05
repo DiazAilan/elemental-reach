@@ -1,0 +1,26 @@
+<header class="topbar">
+  <a routerLink="/" class="brand">Elemental Reach</a>
+  <nav>
+    <a routerLink="/" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Search</a>
+    <a routerLink="/docs" routerLinkActive="active">Syntax</a>
+  </nav>
+</header>
+
+<main>
+  <router-outlet />
+</main>
+
+<footer class="disclaimer">
+  <p>
+    Unofficial fan project. Spirit Island and all related materials are
+    &copy; Greater Than Games, LLC. Not affiliated with or endorsed by Greater Than Games.
+  </p>
+  <p>
+    Card catalog adapted from
+    <a href="https://github.com/oberien/spirit-island-card-katalog" target="_blank" rel="noopener">
+      SICK – Spirit Island Card Katalog
+    </a>
+    (MIT / Apache-2.0). Query syntax inspired by SICK and
+    <a href="https://scryfall.com/" target="_blank" rel="noopener">Scryfall</a>.
+  </p>
+</footer>

@@ -1,0 +1,119 @@
+.back {
+  margin: 0 0 1rem;
+}
+
+.back a {
+  color: var(--moss-deep);
+  text-decoration: none;
+}
+
+.back a:hover {
+  text-decoration: underline;
+}
+
+.card-detail {
+  max-width: 40rem;
+}
+
+.type {
+  margin: 0;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--moss-deep);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+h1 {
+  font-family: var(--font-display);
+  font-size: clamp(1.8rem, 4vw, 2.5rem);
+  letter-spacing: -0.03em;
+  margin: 0.25rem 0 0.15rem;
+}
+
+.set {
+  margin: 0 0 1.25rem;
+  color: color-mix(in oklab, var(--ink) 55%, transparent);
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.85rem 1rem;
+  margin: 0 0 1.5rem;
+  padding: 1rem;
+  border-radius: 12px;
+  background: color-mix(in oklab, var(--paper) 50%, white);
+  border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent);
+}
+
+.stats .wide {
+  grid-column: 1 / -1;
+}
+
+dt {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: color-mix(in oklab, var(--ink) 55%, transparent);
+}
+
+dd {
+  margin: 0.15rem 0 0;
+  font-weight: 600;
+}
+
+.elements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.el {
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.45rem;
+  border-radius: 4px;
+  background: color-mix(in oklab, var(--ink) 8%, white);
+}
+
+.el[data-el='Sun'] {
+  background: #f6e27a;
+}
+.el[data-el='Moon'] {
+  background: #d5d8e8;
+}
+.el[data-el='Fire'] {
+  background: #f0a07a;
+}
+.el[data-el='Air'] {
+  background: #c9e7f2;
+}
+.el[data-el='Water'] {
+  background: #8ec6e6;
+}
+.el[data-el='Earth'] {
+  background: #c4a882;
+}
+.el[data-el='Plant'] {
+  background: #9dcb8c;
+}
+.el[data-el='Animal'] {
+  background: #e0b48a;
+}
+
+.effect h2 {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  margin: 0 0 0.5rem;
+}
+
+.effect p {
+  margin: 0;
+  line-height: 1.55;
+  font-size: 1.05rem;
+}
+
+.error {
+  color: color-mix(in oklab, var(--clay) 80%, black);
+}

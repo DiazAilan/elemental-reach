@@ -1,0 +1,6141 @@
+[
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Lightning's Swift Strike",
+    "name": "Shatter Homesteads",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Rocky Hammer",
+    "description": "1 Fear. Destroy 1 Town."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Lightning's Swift Strike",
+    "name": "Raging Storm",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water"
+    ],
+    "artist": "Rocky Hammer",
+    "description": "1 Damage to each Invader."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Lightning's Swift Strike",
+    "name": "Lightning's Boon",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Rocky Hammer",
+    "description": "Target Spirit may use up to 2 Slow Powers as if they were Fast Powers this turn"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Lightning's Swift Strike",
+    "name": "Harbingers of the Lightning",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Rocky Hammer",
+    "description": "Push up to 2 Dahan. 1 Fear if you pushed any Dahan into a land with Town / City"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: River Surges in Sunlight",
+    "name": "Flash Floods",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Damage. If target land is Coastal, +1 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: River Surges in Sunlight",
+    "name": "Wash Away",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Push up to 3 Explorer / Town"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: River Surges in Sunlight",
+    "name": "Boon of Vigor",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If you target yourself, gain 1 Energy. If you target another Spirit, they gain 1 Energy per Power Card they played this turn."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: River Surges in Sunlight",
+    "name": "River's Bounty",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Gather up to 2 Dahan. If there are now at least 2 Dahan, add 1 Dahan and gain 1 Energy."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Shadows Flicker Like Flame",
+    "name": "Concealing Shadows",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear. Dahan take no damage from Ravaging Invaders this turn."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Shadows Flicker Like Flame",
+    "name": "Favors Called Due",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Gather up to 4 Dahan. If Invaders are present and Dahan now outnumber them, 3 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Shadows Flicker Like Flame",
+    "name": "Mantle of Dread",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. Target Spirit may Push 1 Explorer and 1 Town from a land where it has Presence."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Shadows Flicker Like Flame",
+    "name": "Crops Wither and Fade",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. Replace 1 Town with 1 Explorer. -or- Replace 1 City with 1 Town."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Vital Strength of the Earth",
+    "name": "Guard the Healing Land",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Sydni Kruger",
+    "description": "Remove 1 Blight. Defend 4."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Vital Strength of the Earth",
+    "name": "A Year of Perfect Stillness",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth"
+    ],
+    "artist": "Sydni Kruger",
+    "description": "Invaders skip all Actions in target land this turn."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Vital Strength of the Earth",
+    "name": "Rituals of Destruction",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Sydni Kruger",
+    "description": "2 Damage. If target land has at least 3 Dahan, +3 Damage and 2 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Vital Strength of the Earth",
+    "name": "Draw of the Fruitful Earth",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Sydni Kruger",
+    "description": "Gather up to 2 Explorer. Gather up to 2 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Thunderspeaker",
+    "name": "Manifestation of Power and Glory",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Loic Belliau",
+    "description": "1 Fear. Each Dahan deals damage equal to the number of your Presence in target land."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Thunderspeaker",
+    "name": "Words of Warning",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Defend 3. During Ravage, Dahan in target land deal damage simultaneously with Invaders."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Thunderspeaker",
+    "name": "Sudden Ambush",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "You may Gather 1 Dahan. Each Dahan destroys 1 Explorer."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Thunderspeaker",
+    "name": "Voice of Thunder",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Push up to 4 Dahan. -or- If Invaders are Present, 2 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Ocean's Hungry Grasp",
+    "name": "Call of the Deeps",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Coastal",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Gather 1 Explorer. If target land is the Ocean, you may Gather another Explorer."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Ocean's Hungry Grasp",
+    "name": "Grasping Tide",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Coastal",
+    "elements": [
+      "Moon",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Fear. Defend 4."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Ocean's Hungry Grasp",
+    "name": "Swallow the Land-Dwellers",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Coastal",
+    "elements": [
+      "Water",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Drown 1 Explorer, 1 Town, and 1 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Ocean's Hungry Grasp",
+    "name": "Tidal Boon",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit gains 2 Energy and may Push 1 Town and up to 2 Dahan from one of their lands. If Dahan are pushed to your ocean, you may move them to any Coastal land instead of Drowning them."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Bringer of Dreams and Nightmares",
+    "name": "Predatory Nightmares",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Shane Tyree",
+    "description": "2 Damage. Push up to 2 Dahan. (When your powers would destroy Invaders, instead they generate Fear and/or Push those Invaders.)"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Bringer of Dreams and Nightmares",
+    "name": "Dread Apparitions",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Shane Tyree",
+    "description": "When Powers generate Fear in target land, Defend 1 per Fear. 1 Fear. (Fear from To Dream a Thousand Deaths counts. Fear from destroying Town / City does not.)"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Bringer of Dreams and Nightmares",
+    "name": "Call on Midnight's Dream",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Animal"
+    ],
+    "artist": "Shane Tyree",
+    "description": "If target land has Dahan, gain a Major Power. If you Forget this Power, gain Energy equal to Dahan and you may play the Major Power immediately, paying its cost. -or- If Invaders are present, 2 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: Bringer of Dreams and Nightmares",
+    "name": "Dreams of the Dahan",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Shane Tyree",
+    "description": "Gather up to 2 Dahan. -or- If target land has Town / City, 1 Fear for each Dahan, to a maximum of 3 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: A Spread of Rampant Green",
+    "name": "Overgrow in a Night",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Add 1 Presence. -or- If target land has your Presence and Invaders, 3 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: A Spread of Rampant Green",
+    "name": "Gift of Proliferation",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Target Spirit adds 1 Presence up to 1 Range from their Presence."
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: A Spread of Rampant Green",
+    "name": "Fields Choked with Growth",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Push 1 Town. -or- Push 3 Dahan"
+  },
+  {
+    "set": "Basegame",
+    "type": "Unique Power: A Spread of Rampant Green",
+    "name": "Stem the Flow of Fresh Water",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "1 Damage to 1 Town / City. If target land is Mountain / Sands, instead, 1 Damage to each Town / City."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Savage Mawbeasts",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Cari Corene",
+    "description": "If target land is Jungle / Wetland, 1 Fear and 1 Damage. -If you have- 3 Animal: 1 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Voracious Growth",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Jungle, Wetland",
+    "elements": [
+      "Water",
+      "Plant"
+    ],
+    "artist": "Cari Corene",
+    "description": "2 Damage. -or- Remove 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Rouse the Trees and Stones",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "No Blight",
+    "elements": [
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "2 Damage. Push 1 Explorer."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Encompassing Ward",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Target Spirit provides Defend 2 in each of its lands."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Song of Sanctity",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Mountain, Jungle",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If target land has 1 Explorer, Push all Explorer. Otherwise, remove 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Uncanny Melting",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "If Invaders are present, 1 Fear. If target land is Sands / Wetland, remove 1 Blight"
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Shadows of the Burning Forest",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. If target land is Mountain / Jungle, Push 1 Explorer and 1 Town."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Steam Vents",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Destroy 1 Explorer. -If you have- 3 Earth: You may instead destroy 1 Town."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Veil the Night's Hunt",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Dahan",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Each Dahan deals 1 Damage to a different Invader. -or- Push up to 3 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Elemental Boon",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit gains 3 different Elements of their choice. If you target another Spirit, you also gain the chosen Elements."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Devouring Ants",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear. 1 Damage. Destroy 1 Dahan. If target land is Jungle / Sands, +1 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Dark and Tangled Woods",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. If target land is Mountain / Jungle, Defend 3."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Sap the Strength of Multitudes",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Defend 5. -If you have- 1 Air: Increase this Power's Range by 1"
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Drift down into Slumber",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Defend 1. If target land is Jungle / Sands, instead, Defend 4."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Land of Haunts and Embers",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "2 Fear. Push up to 2 Explorer / Town. If target land has Blight, +2 Fear. Push up to 2 more Explorer / Town. Add 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Nature's Resilience",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Defend 6. -If you have- 2 Water: You may instead remove 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Visions of Fiery Doom",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire"
+    ],
+    "artist": "Lucas Durham",
+    "description": "1 Fear. Push 1 Explorer / Town. -If you have- 2 Fire: +1 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Pull Beneath the Hungry Earth",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If target land has your Presence, 1 Fear and 1 Damage. If target land is Sands / Wetland, 1 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Call of the Dahan Ways",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Moon",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Replace 1 Explorer with 1 Dahan. -If you have- 2 Moon: You may instead replace 1 Town with 1 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Call to Bloodshed",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "1 Damage per Dahan. -or- Gather up to 3 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Call to Isolation",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Graham Stermberg",
+    "description": "Push 1 Explorer / Town per Dahan. -or- Push 1 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Call to Migrate",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Graham Stermberg",
+    "description": "Gather up to 3 Dahan. Push up to 3 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Call to Tend",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Remove 1 Blight. -or- Push up to 3 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Quicken the Earth's Struggles",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "1 Damage to each Town / City. -or- Defend 10."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Delusions of Danger",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Push 1 Explorer. -or- 2 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Drought",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Destroy 3 Town. 1 Damage to each Town / City. Add 1 Blight. -If you have- 3 Sun: Destroy 1 City."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Gift of Constancy",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit gains 2 Energy. At end of turn, target Spirit may Reclaim 1 Power Card instead of discarding it. If you target another Spirit, you may also Reclaim 1 Power Card instead of discarding it."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Enticing Splendor",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "No Blight",
+    "elements": [
+      "Sun",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Gather 1 Explorer / Town. -or- Gather up to 2 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Entrancing Apparitions",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Defend 2. If no Invaders are present, gather up to 2 Explorer."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Gift of Living Energy",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Target Spirit gains 1 Energy, +1 Energy if target Spirit is not yourself. If you have at least 2 SacredSite, target Spirit gains +1 Energy."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Gift of Power",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit gains a Minor Power Card."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Gnawing Rootbiters",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Push up to 2 Town."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Lure of the Unknown",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "No Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather 1 Explorer / Town"
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Purifying Flame",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "1 Damage per Blight. If target land is Mountain / Sands, you may instead remove 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Rain of Blood",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "2 Fear. If target land has at least 2 Town / City, +1 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Minor Power",
+    "name": "Reaching Grasp",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Air",
+      "Water"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Target Spirit gets +2 Range with all their Powers."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Accelerated Rot",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Jungle, Wetland",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Graham Stermberg",
+    "description": "2 Fear. 4 Damage. -If you have- 3 Sun, 2 Water, 3 Plant: +5 Damage. Remove 1 Blight."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Cleansing Floods",
+    "cost": 5,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Wetland"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "4 Damage. Remove 1 Blight. -If you have- 4 Water: +10 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Pillar of Living Flame",
+    "cost": 5,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "3 Fear. 5 Damage. If target land is Jungle / Wetland, add 1 Blight. -If you have- 4 Fire: +2 Fear and +5 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Poisoned Land",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear. 7 Damage. Add 1 Blight and destroy all Dahan. -If you have- 3 Earth, 2 Plant, 2 Animal: For each Blight then present, +1 Fear and +4 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Terrifying Nightmares",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Loic Belliau",
+    "description": "2 Fear. Push up to 4 Explorer / Town. -If you have- 4 Moon: +4 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "The Trees and Stones Speak of War",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Graham Stermberg",
+    "description": "For each Dahan in target land, 1 Damage and Defend 2. -If you have- 2 Sun, 2 Earth, 2 Plant: You may Push up to 2 Dahan, moving each one's Defend with them."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Entwined Power",
+    "cost": 2,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "You and target Spirit may use each other's Presence to target Powers. Target Spirit gains a Power Card. You gain one of the power Cards they did not keep. -If you have- 2 Water, 4 Plant: You and target Spirit each gain 3 Energy and may gift the other 1 Power from hand."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Paralyzing Fright",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "4 Fear. Invaders skip all Actions in target land this turn. -If you have- 2 Air, 3 Earth: +4 Fear."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Powerstorm",
+    "cost": 3,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Target Spirit gains 3 Energy. Once this turn, target may Repeat a Power Card by paying its cost again. -If you have- 2 Sun, 2 Fire, 3 Air: Target may Repeat up to 2 more Power Cards by paying their costs."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Talons of Lightning",
+    "cost": 6,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Mountain, Wetland",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "3 Fear. 5 Damage. -If you have- 3 Fire, 3 Air: Destroy 1 Town in each adjacent land. Increase this power's Range to 3 Range."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "The Jungle Hungers",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Jungle"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Destroy all Explorer and all Town. Destroy all Dahan. -If you have- 2 Moon, 3 Plant: Destroy 1 City. Do not destroy any Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "The Land Thrashes in Furious Pain",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Blight",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Damage per Blight in target land. +1 Damage per Blight in adjacent lands. -If you have- 3 Moon, 3 Earth: Repeat on an adjacent land."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Tsunami",
+    "cost": 6,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Coastal",
+    "elements": [
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jason Behnke",
+    "description": "2 Fear. 8 Damage. Destroy 2 Dahan. -If you have- 3 Water, 2 Earth: In each other Coastal land on the same board: 1 Fear, 4 Damage, and Destroy 1 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Vigor of the Breaking Dawn",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "2 Damage per Dahan in target land. -If you have- 3 Sun, 2 Animal: You may Push up to 2 Dahan. In lands you Pushed Dahan to, 2 Damage per Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Vengeance of the Dead",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 3
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "3 Fear. After each effect that destroys Town / City / Dahan in target land, 1 Damage per Town / City / Dahan destroyed. -If you have- 3 Animal: Damage from this Power may be dealt into adjacent lands."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Wrap in Wings of Sunlight",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Move up to 5 Dahan from target land to any land. Defend 5 in that land. -If you have- 2 Sun, 2 Air, 2 Animal: First, Gather up to 3 Dahan."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Blazing Renewal",
+    "cost": 5,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Target Spirit adds 2 of their destroyed Presence into a single land, up to 2 Range from your Presence. If any Presence was added, 2 damage to each Town / City in that land. -If you have- 3 Fire, 3 Earth, 2 Plant: 4 Damage in that land."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Winds of Rust and Atrophy",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 3
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear and Defend 6. Replace 1 City with 1 Town or 1 Town with 1 Explorer. -If you have- 3 Air, 3 Water, 2 Animal: Repeat this Power."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Indomitable Claim",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Add 1 Presence in target land even if you normally could not due to land type. Defend 20. -If you have- 2 Sun, 3 Earth: 3 Fear if Invaders are present. Invaders skip all Actions in target land this turn."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Mists of Oblivion",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 3
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear per Town / City this Power destroys (to a maximum of 4). 1 Damage to each Invader. -If you have- 2 Moon, 3 Air, 2 Water: 3 Damage."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Infinite Vitality",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Dahan have +4 Health while in target land. Whenever Blight would be added to target land, instead leave it on the card. -If you have- 4 Earth: Dahan ignore Damage and Destruction effects. Remove 1 Blight from target or adjacent land."
+  },
+  {
+    "set": "Basegame",
+    "type": "Major Power",
+    "name": "Dissolve the Bonds of Kinship",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Replace 1 City with 2 Explorer. Replace 1 Town with 1 Explorer. Replace 1 Dahan with 1 Explorer. Push all Explorer from target land to as many different lands as possible. -If you have- 2 Fire, 2 Water, 3 Animal: Before Pushing, Explorer and Town / City do Damage to each other."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Strangling Firevine",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Sands"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Destroy all Explorer. Add 1 Wilds. Add 1 Wilds in the originating Sands. 1 Damage per Wilds in / adjacent to target land. -If you have- 2 Fire, 3 Plant: +1 Damage per Wilds in / adjacent to target land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Bloodwrack Plague",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Add 2 Disease. For each Disease in target land, Defend 1 in target and all adjacent lands. -If you have- 2 Earth, 4 Animal: 2 Fear. For each Disease in target land do 1 Damage in target or an adjacent land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Cast down into the Briny Deep",
+    "cost": 9,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Coastal",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jason Behnke",
+    "description": "6 Fear. Destroy all Invaders. -If you have- 2 Sun, 2 Moon, 4 Water, 4 Earth: Destroy the board containing target land and everything on that board. All destroyed Blight is removed from the game instead of being returned to the Blight Card."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Death Falls Gently from Open Blossoms",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 3
+    },
+    "target": "Jungle, Sands",
+    "elements": [
+      "Moon",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Graham Stermberg",
+    "description": "4 Damage. If any Invaders remain, add 1 Disease. -If you have- 3 Air, 3 Plant: 3 Fear. Add 1 Disease to 2 adjacent lands with Invaders."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Fire and Flood",
+    "cost": 7,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": [
+        1,
+        2
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Water"
+    ],
+    "artist": "Jason Behnke",
+    "description": "4 Damage in each target land. (Range must be measured from the same SacredSite.) -If you have- 3 Fire: +4 Damage in either target land. 3 Water: +4 Damage in either target land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Grant Hatred a Ravenous Form",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "For each Strife / Blight in target land, 1 Fear and 2 Damage. If this destroys all invaders in target land, add 1 Beasts. -If you have- 4 Moon, 2 Fire: Add 1 Strife in up to 3 adjacent lands."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Insatiable Hunger of the Swarm",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Add 1 Blight. Add 2 Beasts. Gather up to 2 Beasts. Each Beasts deal 1 Fear, 2 Damage to Invaders and 2 Damage to Dahan. Destroy 1 Beasts. -If you have- 2 Air, 4 Animal: Repeat this Power on an adjacent land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Instruments of their own Ruin",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Add 1 Strife. Each Invader with Strife deals Damage to other Invaders in target land. -If you have- 4 Sun, 2 Fire, 2 Animal: Instead, if Invaders Ravage in target land, they damage Invaders in adjacent lands instead of Dahan and the land. Dahan in target land do not fight back."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Flow like Water, Reach like Air",
+    "cost": 2,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Air",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit gets +2 Range with all Powers. Target Spirit may Push 1 of their Presence to an adjacent land, bringing up to 2 Explorer, 2 Town and 2 Dahan along with it. -If you have- 2 Air, 2 Water: The moved Presence may also bring along up to 2 City and up to 2 Blight."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Pent-Up Calamity",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Add 1 Disease and 1 Strife. -or- Remove any number of Beasts / Disease / Strife / Wilds. For each token removed, 1 Fear and 3 Damage. -If you have- 2 Moon, 3 Fire: If you have removed tokens, return up to 2 of them. Otherwise, add 2 Strife."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Pyroclastic Flow",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Mountain"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Damage. Destroy all Explorer. If target land is Jungle / Wetland, add 1 Blight. -If you have- 2 Fire, 3 Air, 2 Earth: +4 Damage. Add 1 Wilds."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Savage Transformation",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Animal"
+    ],
+    "artist": "Loic Belliau",
+    "description": "2 Fear. Replace 1 Explorer with 1 Beasts. -If you have- 2 Moon, 3 Animal: Replace 1 additional Explorer with 1 Beasts in either target or adjacent land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Sea Monsters",
+    "cost": 5,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Coastal, Wetland",
+    "elements": [
+      "Water",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Add 1 Beasts. If Invaders are present, 2 Fear per Beasts (max. 8 Fear). 3 Damage per Beasts. 1 Damage per Blight. -If you have- 3 Water, 3 Animal: Repeat this power."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Tigers Hunting",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Jungle"
+      ]
+    },
+    "target": "No Blight",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Animal"
+    ],
+    "artist": "Cari Corene",
+    "description": "2 Fear. Add 1 Beasts. Gather up to 1 Beasts. 1 Damage per Beasts. Push up to 2 Beasts. -If you have- 2 Sun, 2 Moon, 3 Animal: 1 Damage in an adjacent land without Blight, and +1 Damage per Beasts there."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Unrelenting Growth",
+    "cost": 4,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit adds 2 Presence and 1 Wilds to a land at 1 Range of their Presence. -If you have- 3 Sun, 3 Plant: In that land, add 1 additional Wilds and remove 1 Blight. Target Spirit gains a Power Card."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Volcanic Eruption",
+    "cost": 8,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Mountain"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "6 Fear. 20 Damage. Destroy all Dahan and Beasts. Add 1 Blight. -If you have- 4 Fire, 3 Earth: Destroy all Invaders. Add 1 Wilds. In each adjacent land: 10 Damage. Destroy all Dahan and Beasts. If there are no Blight, add 1 Blight."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Sweep into the Sea",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Push all Explorer and Town one land towards the nearest Ocean. -or- If target land is Coastal, destroy all Explorer and Town. -If you have- 3 Sun, 2 Water: Repeat on an adjacent land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Manifest Incarnation",
+    "cost": 6,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "City",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "6 Fear. +1 Fear for each Town / City and for each of your Presence in target land. Remove 1 City, 1 Town and 1 Explorer. Then Invaders in target land Ravage. -If you have- 3 Sun, 3 Moon: +3 Fear. Invaders do -6 Damage on their Ravage."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Smothering Infestation",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Add 1 Disease. If target land is Jungle / Wetland, 2 Fear and 3 Damage. -If you have- 2 Water, 2 Plant: 1 Damage to each Invader."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Twisted Flowers Murmur Ultimatums",
+    "cost": 5,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "4 Fear. Add 1 Strife. If the Terror Level is 2 or higher, remove 2 Invaders. -If you have- 3 Moon, 2 Air, 3 Plant: +3 Fear, before the Terror Level check. 3 Damage."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Major Power",
+    "name": "Unlock the Gates of Deepest Power",
+    "cost": 4,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Fire",
+      "Air",
+      "Water",
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit gains a Major Power by drawing 2 and keeping 1, without having to Forget another Power Card. -If you have- 2 Sun, 2 Moon, 2 Fire, 2 Air, 2 Water, 2 Earth, 2 Plant, 2 Animal: Target Spirit may now play the Major Power they keep by paying half its cost (round up) OR by Forgetting it at the end of turn. It gains all elemental thresholds."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Inflame the Fires of Life",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "Add 1 Disease. -or- 1 Fear. Add 1 Strife. -If you have- 3 Animal: You may do both."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Fire in the Sky",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Fear. Add 1 Strife"
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Fleshrot Fever",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Jungle, Sands",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear. Add 1 Disease."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Gold's Allure",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Mountain",
+    "elements": [
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather 1 Explorer. and 1 Town. Add 1 Strife."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Guardian Serpents",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Add 1 Beasts in one of target Spirit's lands. If target Spirit has a SacredSite in that land: Defend 4 there."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Here there be Monsters",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Inland",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "You may Push 1 Explorer / Town / Dahan. 2 Fear. If target land has any Beasts, 1 Fear."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Infested Aquifers",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If target land has any Disease, 1 Damage to each Invader. -or- If target land is Mountain / Wetland, 1 Fear and add 1 Disease."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Poisoned Dew",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Cari Corene",
+    "description": "Destroy 1 Explorer. If target land is Jungle / Wetland, destroy all Explorer."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Portents of Disaster",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. The next time an Invader is destroyed in target land this turn, 1 Fear."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Prowling Panthers",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Mountain, Jungle",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Add 1 Beasts. -or- If target land has Beasts, destroy 1 Explorer / Town."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Renewing Rain",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If target land is Jungle / Sands, remove 1 Blight. -If you have- 3 Plant: Add 1 Wilds."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Rites of the Land's Rejection",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Dahan",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Invaders do not Build in target land this turn. 1 Fear per Town / City or 1 Fear per Dahan, whichever is less. -or- Push up to 3 Dahan."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Pact of the Joined Hunt",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Target Spirit Gathers 1 Dahan into one of their lands. 1 Damage in that land per Dahan present."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Razor-Sharp Undergrowth",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "No Blight",
+    "elements": [
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Cari Corene",
+    "description": "Destroy 1 Explorer and 1 Dahan. Add 1 Wilds. Defend 2."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Growth through Sacrifice",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Destroy 1 of your Presence. Target Spirit chooses to either: Remove 1 Blight from one of their lands. -or- Add 1 Presence to one of their lands. -If you have- 2 Sun: They may do both, in the same land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Scour the Land",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Destroy 3 Town and all Explorer. Add 1 Blight. -If you have- 3 Air: This power may be Fast."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Sky Stretches to Shore",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "This turn, target Spirit may use 1 Slow Power as if it were Fast, or vice versa. Target Spirit gains +3 Range for measuring Range to Coastal lands."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Swarming Wasps",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "No Blight",
+    "elements": [
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Add 1 Beasts. -or- If target land has Beasts, Push up to 2 Explorer."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Absorb Corruption",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Gather 1 Blight. -or- Pay 1 Energy to remove 1 Blight. -If you have- 2 Plant: You may do both."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Animated Wrackroot",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear. Destroy 1 Explorer. -or- Add 1 Wilds."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Promises of Protection",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather up to 2 Dahan. Dahan have +2 Health while in target land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Call to Ferocity",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Gather up to 3 Dahan. -or- If target land has Dahan, 1 Fear and Push 1 Explorer and 1 Town."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Call to Trade",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Dahan",
+    "elements": [
+      "Air",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "You may Gather 1 Dahan. If the Terror Level is 2 or lower, Gather 1 Town and the first Ravage in target land this turn becomes a Build there instead."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Confounding Mists",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Defend 4. -or- Each Invader added to target land this turn may be immediately Pushed to any adjacent land."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Cycles of Time and Tide",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Coastal",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Water"
+    ],
+    "artist": "Joshua Wright",
+    "description": "If there are Dahan, add 1 Dahan. If there are no Dahan, remove 1 Blight."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Disorienting Landscape",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Push 1 Explorer. If target land is Mountain / Jungle, add 1 Wilds."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Elusive Ambushes",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Water"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Damage. -or- Defend 4."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Tormenting Rotflies",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Sands, Wetland",
+    "elements": [
+      "Air",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Kat Birmelin",
+    "description": "Add 1 Disease. -or- If target land has Invaders, 2 Fear. If Disease is present, +1 Fear. If Blight is present, +1 Fear."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Twilight Fog brings Madness",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Loic Belliau",
+    "description": "Add 1 Strife. Push 1 Dahan. Each remaining Dahan takes 1 Damage."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Teeming Rivers",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Mountain, Wetland",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "If target land has no Blight, add 1 Beasts. If target land has exactly 1 Blight, remove it."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Minor Power",
+    "name": "Spur on with Words of Fire",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "If you target a Spirit other than yourself, they gain +1 Energy. Target Spirit may immediately play another Power Card by paying its cost. (If it is Slow, it does not resolve until later.)"
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Sharp Fangs behind the Leaves",
+    "name": "Prey on the Builders",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "You may Gather 1 Beasts. If target land has Beasts, Invaders do not Build there this turn."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Sharp Fangs behind the Leaves",
+    "name": "Teeth Gleam from Darkness",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Jungle"
+      ]
+    },
+    "target": "No Blight",
+    "elements": [
+      "Moon",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Add 1 Beasts. -or- If target land has both Beasts and Invaders: 3 Fear."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Sharp Fangs behind the Leaves",
+    "name": "Too Near the Jungle",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Jungle"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Destroy 1 Explorer."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Sharp Fangs behind the Leaves",
+    "name": "Terrifying Chase",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Push 2 Explorer / Town / Dahan. Push another 2 Explorer / Town / Dahan per Beasts in target land. If you Pushed any Invaders, 2 Fear."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Keeper of the Forbidden Wilds",
+    "name": "Towering Wrath",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Fear. For each of your SacredSite in / adjacent to target land, 2 Damage. Destroy all Dahan."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Keeper of the Forbidden Wilds",
+    "name": "Regrow from Roots",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Jungle, Wetland",
+    "elements": [
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "If there are 2 Blight or fewer in target land, remove 1 Blight."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Keeper of the Forbidden Wilds",
+    "name": "Boon of Growing Power",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit gains a Power Card. If you target another Spirit, they also gain 1 Energy."
+  },
+  {
+    "set": "Branch & Claw",
+    "type": "Unique Power: Keeper of the Forbidden Wilds",
+    "name": "Sacrosanct Wilderness",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "No Blight",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Push 2 Dahan. 2 Damage per Wilds in target land. -or- Add 1 Wilds."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Heart of the Wildfire",
+    "name": "Flash-Fires",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear. 1 Damage. -If you have- 2 Air: This Power is Fast."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Heart of the Wildfire",
+    "name": "Asphyxiating Smoke",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Fear. Destroy 1 Town. Push 1 Dahan."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Heart of the Wildfire",
+    "name": "Flame's Fury",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Target Spirit gains 1 Energy. Target Spirit does +1 Damage with each Damage dealing Power they use this turn. (Powers which damage multiple lands or each Invader only get 1 extra damage total. Repeated Powers keep the +1 boost. Destroy effects don't get any bonus.)"
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Heart of the Wildfire",
+    "name": "Threatening Flames",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Blight, Invaders",
+    "elements": [
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. Push 1 Explorer / Town per Terror Level from target land to adjacent lands without your Presence. If there are no such adjacent lands, +2 Fear."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Serpent Slumbering Beneath the Island",
+    "name": "Gift of the Primordial Deeps",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Target Spirit gains a Minor Power. Target Spirit chooses to either: Play it immediately by paying its cost. -or- Gain 1 Moon and 1 Earth."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Serpent Slumbering Beneath the Island",
+    "name": "Gift of Flowing Power",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Fire",
+      "Water"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Target Spirit gains 1 Energy. Target Spirit chooses to either: Play another Power Card by paying its cost. -or- Gain 1 Fire and 1 Water."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Serpent Slumbering Beneath the Island",
+    "name": "Absorb Essence",
+    "cost": 2,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Gain 3 Energy. Move 1 of target Spirit's Presence from the board to your \"Deep Slumber\" track. Absorbed Presence cannot be returned to play. Target Spirit gains 1 Any and 1 Energy."
+  },
+  {
+    "set": "Promo",
+    "type": "Unique Power: Serpent Slumbering Beneath the Island",
+    "name": "Elemental Aegis",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Defend 2 in target land and all adjacent lands. For every Presence on your \"Deep Slumber\" track, Defend 1 in target land and all adjacent lands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Forests of Living Obsidian",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Add 1 Badlands. Push all Dahan. 1 Damage to each Invader. If the origin land is your Sacred Site, +1 Damage to each Invader.  -If you have- 2 Sun, 3 Fire, 3 Earth: Repeat this Power."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Infestation of Venomous Spiders",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Invaders",
+    "elements": [
+      "Air",
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Add 1 Beasts. Gather up to 1 Beasts. For each Beasts, 1 Fear (max. 4) and Invaders skip one Action in target land. -If you have- 2 Air, 2 Earth, 3 Animal: After this Power causes Invaders to skip an Action, 4 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Dream of the Untouched Land",
+    "cost": 6,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Remove up to 3 Blight and up to 3 Health worth of Invaders.  -If you have- 3 Moon, 2 Water, 3 Earth, 2 Plant: (Max. 1x/game) Add a random new Island Board next to target board. Ignore its Setup icons; add 2 Beasts, 2 Wilds, 2 Badlands and up to 2 Presence (from any Spirits) anywhere on it. From now on, Build cards and \"Each board / Each land\" Adversary Actions skip 1 Board."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Angry Bears",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Fear. 2 Damage. If no Beasts are present, add 1 Beasts. Otherwise, +2 Damage, and Push up to 1 Beasts.  -If you have- 2 Fire, 3 Animal: 1 Fear and destroy 1 Explorer / Town in an adjacent land with Beasts."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Focus the Land's Anguish",
+    "cost": 5,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun"
+    ],
+    "artist": "Moro Rogers",
+    "description": "If this Power Destroys any Town / City, 5 Fear. Gather up to 5 Blight. 1 Damage per Blight.  -If you have- 3 Sun: +1 Damage per Blight."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Vanish Softly Away, Forgotten by All",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Remove 1 Invader and 1 Explorer / Town. -or- Remove all Damaged Invaders. Adversary or Scenario rules that prevent or alter Removal do not affect this Power.  -If you have- 3 Moon, 3 Air: In any 2 lands with 4 or more Invaders: Remove 1 Invader."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Unleash a Torrent of the Self's Own Essence",
+    "cost": 2,
+    "speed": "Fast",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Fire",
+      "Water"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Gain 4 energy. You may forget a power card to gain 4 more energy. -or- Pay X energy (min. 1) to deal X damage in a land at 0 Range.  -If you have- 2 Sun, 3 Fire: You may do both."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Bargains of Power and Protection",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Remove 1 of your Presence on the island from the game, setting it on the Reminder Card. From now on: each Dahan within 1 Range of your Presence provides Defend 1 in its land, and you gain 1 less Energy each turn. (This effect stacks if used multiple times) -If you have- 3 Sun, 2 Water, 2 Earth: The Presence instead comes from your Presence track."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Transform to a Murderous Darkness",
+    "cost": 6,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit may choose one of their Sacred Sites. In that land: Replace all their Presence with Badlands; the replaced Presence leave the game. Push any number of those Badlands. 3 Fear. 3 Damage per Presence replaced. -If you have- 3 Moon, 2 Fire, 2 Air: 1 Damage in an adjacent land. 1 Damage in an adjacent land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Settle Into Hunting-Grounds",
+    "cost": 3,
+    "speed": "Fast",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Your Presence may count as Badlands and Beasts. (Decide per Presence, per action.) Your Presence cannot move. -If you have- 2 Plant, 3 Animal: 2 Fear and 2 Damage in one of your lands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Walls of Rock and Thorn",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Mountain, Jungle",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Damage. Defend 8. Add 1 Wilds. Isolate target land. -If you have- 2 Earth, 2 Plant: +2 Damage. +2 Defend. Add 1 Badlands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Voice of Command",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Air"
+    ],
+    "artist": "Lucas Durham",
+    "description": "1 Damage per Dahan / Explorer, to Town / City only. Defend 2. During Ravage actions, Explorer fight alongside Dahan. (Deal / take damage at the same time, and to / from the same sources.) -If you have- 3 Sun, 2 Air: First, Gather up to 2 Explorer / Town / Dahan"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Irresistible Call",
+    "cost": 6,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Inland",
+    "elements": [
+      "Sun",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather 5 Town, 5 Dahan, 5 Beasts, and 15 Explorer. -If you have- 2 Sun, 3 Air, 2 Plant: Invaders skip all Actions in target land. Isolate target land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "The Wounded Wild Turns on its Assailants",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Blight",
+    "elements": [
+      "Fire",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Add 2 Badlands. Gather up to 2 Beasts. 1 Damage per Blight / Beasts / Wilds. -If you have- 2 Fire, 3 Plant, 2 Animal: 2 Fear per Invader destroyed by the Power (max. 8 Fear)."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Draw Towards a Consuming Void",
+    "cost": 8,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [],
+    "artist": "Joshua Wright",
+    "description": "Gather 1 Explorer, 1 Town, 1 City, 1 Dahan, 1 Beasts, and 1 Presence (from any Spirit) from each adjacent land. 4 Fear. 15 Damage. 5 Damage to Dahan. Destroy 1 Presence from each Spirit. Destroy 2 Beasts. -If you have no other power cards in play-: Any number of times: Forget a Minor Power, and Major Power, and a Unique Power to perform the above effects again."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Storm-Swath",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "2 Fear. In both origin land and target land: 1 Damage to each Invader. -If you have- 2 Fire, 3 Air, 2 Water: +1 Fear. This Power has +1 Range. In a land adjacent to both origin and target, 1 Damage to each Invader. In lands where you did Damage, destroy 1 town."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Spill Bitterness into the Earth",
+    "cost": 5,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "6 Damage. Add 2 Badlands / Strife and 1 Blight. In up to 3 adjacent lands with Blight, add 1 Badlands / Strife. -If you have- 3 Fire, 3 Water: In up to 3 adjacent lands, 1 Damage to each Invader."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Utter a Curse of Dread and Bone",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "For each Blight in / adjacent to target land, add 1 Badlands, 1 Disease, or 1 Strife. (Max. +3 of each.) Then: 2 Fear. 1 Damage. -If you have- 3 Moon, 2 Animal: For each type of token you added, add 1 more within 1 Range. 1 Damage in an adjacent land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Sleep and Never Waken",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2,
+      "land": [
+        "Sands"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Invaders skip all Actions in target land. 1 Fear per 2 Explorer this Power removes. Remove up to 2 Explorer. -If you have- 3 Moon, 2 Air, 2 Animal: Remove up to 6 Explorer from among your lands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Weave Together the Fabric of Place",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target land and a land adjacent to it become a single land for this turn. (It has the terrain and land # of both lands. When this effect expires, divide pieces as you wish; all of them are considered moved.) -If you have- 4 Air: Isolate the joined land. If it has Invaders, 2 Fear, and remove up to 2 Invaders."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Trees Radiate Celestial Brilliance",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Jungle, No Blight",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Shawn Daley",
+    "description": "3 Fear. Defend 6. Invaders skip the next build. (In target land this turn.) -If you have- 3 Sun, 2 Moon, 2 Plant: 1 Damage per Sun you have."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Thickets Erupt with Every Touch of Breeze",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Inland",
+    "elements": [
+      "Air",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "2 Damage. Then either: Add 3 Wilds. -or- Remove 1 Blight. -If you have- 3 Plant: 1 Fear. +2 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Major Power",
+    "name": "Melt Earth into Quicksand",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Sands, Wetland",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Lucas Durham",
+    "description": "1 Fear. 2 Damage. Isolate target land. After Invaders / Dahan are Moved into target land, Destroy them.  -If you have- 2 Moon, 4 Water, 2 Earth: +4 Damage. Add 1 Badlands. Add 1 Wilds."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Hazards Spread Across The Island",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Choose a type of token from Badlands / Beasts / Disease / Strife / Wilds that exists in an adjacent land; choosing Disease costs 1 energy. Add 1 of that type of token to target land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Bats Scout For Raids By Darkness",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Shawn Daley",
+    "description": "For each Dahan, 1 Damage to Town / City. -or- 1 Fear. Gather up to 2 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Birds Cry Warning",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 3
+    },
+    "target": "Dahan",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "The next time Dahan would be Destroyed in target land, Destroy 2 fewer Dahan. -or- Push up to 3 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Blood Draws Predators",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "After the next time Invaders are Destroyed in target land: Add 1 Beasts, then 1 Damage per Beasts (max. 3 Damage)."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Carapaced Land",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "If targeting a land with Beasts, this Power has +1 Range. Defend 3. -If you have- 2 Earth: Defend +3."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Call To Guard",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Gather up to 1 Dahan. Then, if Dahan are present, either: Defend 1 per Dahan. -or- After Invaders are added or moved to target land, 1 Damage to each added or moved Invader."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Desiccating Winds",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Mountain, Sands",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Shawn Daley",
+    "description": "If target land has Badlands, 1 Damage. Add 1 Badlands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Dry Wood Explodes In Smoldering Splinters",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "No Wetland",
+    "elements": [
+      "Fire",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "You may spend 1 Energy to make this Power Fast. 2 Fear. 1 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Gift of Nature's Connection",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit gains either 2 Energy or 2 of a single Element (their choice). If you target another Spirit, you gain an Element of your choice."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Entrap The Forces Of Corruption",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Shawn Daley",
+    "description": "Gather up to 1 Blight. Isolate target land. When Blight is added to target land, it doesn't cascade."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Domesticated Animals Go Berserk",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Town, City",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear. Defend 5. -If you have- 3 Moon: Add 1 Beasts."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Dire Metamorphosis",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. 1 Damage. 1 Damage to Dahan. Add 1 Badlands, 1 Beasts, 1 Disease, 1 Strife, 1 Wilds, and 1 Blight."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Skies Herald The Season Of Return",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "A Spirit with Presence on target board may add 1 of their Destroyed Presence. Gather up to 2 Dahan. Push 1 Blight."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Gift of Twinned Days",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Moon"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Once this turn, target Spirit may Repeat the lowest-cost Power Card they have in play by paying it's cost again. You may do likewise."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Haunted By Primal Memories",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear. Defend 3. If Beasts are present, +2 Fear."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Like Calls to Like",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "If target land has Explorer, Gather up to 1 Explorer. Do likewise for Town, Dahan, Blight, and Beasts."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Unquenchable Flames",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear. 1 Damage to Town / City. Invaders do not heal Damage at end of turn. -If you have- 2 Fire: Add 1 Badlands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Mesmerized Tranquility",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Isolate target land. Each Invader does -1 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Territorial Strife",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "City",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "3 Damage to Explorer / Town. -or- Add 1 Strife."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Renewing Boon",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Choose a land where you and target Spirit both have Presence. In that land: Remove 1 Blight, and target Spirit may add 1 of their Destroyed Presence."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Scream Disease Into The Wind",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit gets +1 Range with all their Powers. Once this turn, after target Spirit uses a Power targeting a land, they may add 1 Disease to that land. (Hand them a Disease token as a reminder.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Sear Anger Into The Wild Lands",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Add 1 Badlands. -or- If Wilds and Invaders are present, 1 Fear and 1 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Set Them On An Ever-Twisting Trail",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Gather or Push 1 Explorer. Isolate target land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Strong And Constant Currents",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Coastal",
+    "elements": [
+      "Sun",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Push 1 Explorer / Town to an adjacent Coastal land. -or- Move up to 2 Dahan between target land and one other Coastal land. -If you have- 2 Water: You may do both."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Sucking Ooze",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Sands, Wetland",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Fear if Invaders are present. Isolate target land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Sunset's Fire Flows Across The Land",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Fire",
+      "Water"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. 1 Damage. You may pay 1 Energy to deal 1 Damage in an adjacent land."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Terror Turns To Madness",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Shawn Daley",
+    "description": "If the Terror Level is... Terror Level 1: 3 Fear. Terror Level 2: 2 Fear or add 1 Strife. Terror Level 3: Add 1 Strife."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "The Shore Seethes With Hatred",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Coastal",
+    "elements": [
+      "Fire",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1  Fear. Add 1 Badlands and 1 Wilds."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Thriving Chokefungus",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Jungle, Wetland",
+    "elements": [
+      "Moon",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Jorge Ramos",
+    "description": "Add 1 Disease and 1 Badlands."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Treacherous Waterways",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Mountain, Wetland",
+    "elements": [
+      "Fire",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Add 1 Wilds. -or- Push 1 Explorer."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Flow Downriver, Blow Downwind",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Push up to 1 Blight / Explorer / Town."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Weep For What Is Lost",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Blight",
+    "elements": [
+      "Fire",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear per type of Invader present. Push up to 1 Explorer / Town per Blight."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Minor Power",
+    "name": "Favor Of The Sun And Star-Lit Dark",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Defend 4. Push up to 1 Blight. -If you have- 2 Sun: 1 Fear"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Grinning Trickster Stirs Up Trouble",
+    "name": "Unexpected Tigers",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear if Invaders are present. If you can gather 1 Beasts, do so, then push 1 Explorer. Otherwise, add 1 Beasts."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Grinning Trickster Stirs Up Trouble",
+    "name": "Impersonate Authority",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Add 1 Strife."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Grinning Trickster Stirs Up Trouble",
+    "name": "Incite the Mob",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Invader with Strife deals Damage to other Invaders (not to each Invader). 1 Fear per Invader this Power Destroyed."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Grinning Trickster Stirs Up Trouble",
+    "name": "Overenthusiastic Arson",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Destroy 1 Town. Discard the top card of the Minor Power Deck. If it provides Fire: 1 Fear, 2 Damage, and add 1 Blight."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Volcano Looming High",
+    "name": "Rain of Ash",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Fear if Invaders are present. Push 2 Dahan and 2 Explorer / Town to land(s) without your Presence."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Volcano Looming High",
+    "name": "Lava Flows",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Add 1 Badlands and 1 Wilds. -or- 1 Damage."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Volcano Looming High",
+    "name": "Exaltation of Molten Stone",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Split 1 Energy per Fire you have between yourself and target Spirit, as evenly as possible. Target Spirit gains +1 Range with their powers that originate from a Mountain."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Volcano Looming High",
+    "name": "Pyroclastic Bombardment",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Damage to each Town / City / Dahan. 1 Damage. 1 Damage to Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shroud of Silent Mist",
+    "name": "Dissolving Vapors",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water"
+    ],
+    "artist": "Emily Hancock",
+    "description": "1 Fear. 1 Damage to each Invader. 1 Damage to each Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shroud of Silent Mist",
+    "name": "The Fog Closes In",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Emily Hancock",
+    "description": "For each adjacent land with your Presence, 1 Damage to a different Invader. Push 2 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shroud of Silent Mist",
+    "name": "Unnerving Pall",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Emily Hancock",
+    "description": "1 Fear. Up to 3 damaged Invaders do not participate in Ravage. -or- 1 Fear. Defend 1 per Presence you have in target land (when this Power is used)."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shroud of Silent Mist",
+    "name": "Flowing and Silent Forms Dart By",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Emily Hancock",
+    "description": "2 Fear if Invaders are present. When Presence in target land would be Destroyed, its owner may, if possible, instead Push that Presence. You may Gather 1 Presence / Sacred Site of another Spirit (with their permission)."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Vengeance as a Burning Plague",
+    "name": "Fiery Vengeance",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "Cost to Use: Target Spirit Removes 1 of their Destroyed Presence from the game. 1 Fear and 1 Damage in one of target Spirit's lands. (This is your Power, so Blight counts as Badlands, even if target is another Spirit.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Vengeance as a Burning Plague",
+    "name": "Plaguebearers",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Disease",
+    "elements": [
+      "Fire",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "1 Fear if Invaders are present. For each Disease, Push 2 Explorer / Town / Dahan. 1 Disease may move with each Pushed piece."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Vengeance as a Burning Plague",
+    "name": "Fetid Breath Spreads Infection",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "1 Fear. Add 1 Disease."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Vengeance as a Burning Plague",
+    "name": "Strike Low with Sudden Fevers",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Disease",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "1 Fear. Invaders skip Ravage Actions."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Fractured Days Split the Sky",
+    "name": "Absolute Stasis",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Cost to Use: 1 Time. Until the end of the Slow phase, target land and everything in it cease to exist for all purposes except checking victory/defeat. (You cannot target into, out of, or through where the land was.) This cannot target an Ocean even if Oceans are in play."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Fractured Days Split the Sky",
+    "name": "Pour Time Sideways",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Cost to Use: 3 Time. Move 1 of your Presence to a different land with your Presence. On the board moved from: During the Invader Phase, Resolve Invader and \"Each board / Each land...\" Actions one fewer time. On the board moved to: During the Invader Phase, Resolve Invader and \"Each board / Each Land...\" Actions one more time."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Fractured Days Split the Sky",
+    "name": "The Past Returns Again",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "",
+    "elements": [
+      "Sun",
+      "Moon"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Cost to Use: N Time, and Spirits jointly pay N Energy (where N = # of players). Swap the top card of the Invader Deck with a card in the Invader discard that is within 1 Invader Stage of it. (The discarded card stays face-down. You can't swap cards that don't exist.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Fractured Days Split the Sky",
+    "name": "Blur the Arc of Years",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air"
+    ],
+    "artist": "Lucas Durham",
+    "description": "If no Dahan / Invaders are present: Remove 1 Blight. If invaders are present: they Build, then Ravage. If Dahan are present: Add 1 Dahan. Push up to 2 Dahan. You may repeat this power (once) on the same land by spending 1 Time."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shifting Memory of Ages",
+    "name": "Boon of Ancient Memories",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "If you target yourself, gain a Minor Power. Otherwise: Target Spirit gains a Power Card. If it's a Major Power, they may pay 2 Energy instead of Forgetting a Power Card."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shifting Memory of Ages",
+    "name": "Elemental Teachings",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Prepare 1 Element Marker. Discard up to 3 Element Markers. Target Spirit gains those Elements. (They can be any combination of Elements - the same or different.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shifting Memory of Ages",
+    "name": "Share Secrets of Survival",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Each time Dahan would be Destroyed in target land, Destroy 2 fewer Dahan. -or- Gather up to 2 Dahan.  -If you have- 3 Air: You may do both."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Shifting Memory of Ages",
+    "name": "Study the Invaders' Fears",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Town, City",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Fear. Turn the top card of the Fear Deck face-up."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Starlight Seeks its Form",
+    "name": "Boon of Reimagining",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Target Spirit may Forget a Power Card from hand or discard. If they do, they draw 6 Minor Power Cards and gain 2 of them. If you target another Spirit, they gain 1 Energy."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Starlight Seeks its Form",
+    "name": "Gather the Scattered Light of Stars",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Moon"
+    ],
+    "artist": "Emily Hancock",
+    "description": "At end of turn after discarding: Reclaim up to 2 cards to your hand. You may then Forget a Unique Power Card to Reclaim up to 3 additional cards."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Starlight Seeks its Form",
+    "name": "Shape the Self Anew",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Moon"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Gain a Minor Power. You may Forget this Power Card to gain 3 Energy.  -If you have- 4 Moon: You may gain a Major Power instead of a Minor Power."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Starlight Seeks its Form",
+    "name": "Peace of the Nighttime Sky",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon"
+    ],
+    "artist": "Emily Hancock",
+    "description": "If the Terror Level is 1, Invaders do not Ravage in target land this turn. You may Repeat this Power. If you do, Forget this Power Card and Gain 1 Moon."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Stone's Unyielding Defiance",
+    "name": "Scarred and Stony Land",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Blight",
+    "elements": [
+      "Moon",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Damage. Add 1 Badlands. Remove 1 Blight in target land from the game. (It goes to the box, not the Blight Card.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Stone's Unyielding Defiance",
+    "name": "Plows Shatter on Rocky Ground",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Damage to each Town / City. Push up to 1 Town. -or- Destroy 1 Town."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Stone's Unyielding Defiance",
+    "name": "Jagged Shards Push from the Earth",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Add 1 Badlands. Push up to 2 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Stone's Unyielding Defiance",
+    "name": "Stubborn Solidity",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Defend 1 per Dahan. Dahan in target land cannot be changed. (When they would be Damaged, Destroyed, Removed, Replaced, or moved, instead don't)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Lure of the Deep Wilderness",
+    "name": "Perils of the Deepest Island",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Inland",
+    "elements": [
+      "Moon",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "1 Fear. Add 1 Badlands. Add 1 Beasts within 1 Range. Push up to 2 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Lure of the Deep Wilderness",
+    "name": "Softly Beckon Ever Inward",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Inland",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Gather up to 2 Explorer. Gather up to 2 Town. Gather up to 2 Beasts. Gather up to 2 Dahan."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Lure of the Deep Wilderness",
+    "name": "Gift of the Untamed Wild",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Joshua Wright",
+    "description": "Target Spirit chooses to either: add 1 Wilds to one of their lands. -or- Replace 1 of their Presence with 1 Disease."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Lure of the Deep Wilderness",
+    "name": "Swallowed by the Wilderness",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Inland",
+    "elements": [
+      "Fire",
+      "Air",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Joshua Wright",
+    "description": "2 Fear. 1 Damage per Beasts / Disease / Wilds / Badlands. (Count max. 5 tokens.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Many Minds Move as One",
+    "name": "Pursue with Scratches, Pecks, and Stings",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Beasts",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. For each Beasts past the first, Push 1 Explorer / Town."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Many Minds Move as One",
+    "name": "A Dreadful Tide of Scurrying Flesh",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "2 Beasts",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Remove up to half (round down) of Beasts in target land. For each Beasts Removed, 2 Fear and skip one Invader Action."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Many Minds Move as One",
+    "name": "Boon of Swarming Bedevilment",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "For the rest of this turn, each of target Spirit's Presence grants Defend 1 in its land. Target Spirit may Push up to 1 of their Presence."
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Many Minds Move as One",
+    "name": "Guide the Way on Feathered Wings",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Move 1 Beasts up to two lands. As it moves, up to 2 Dahan may move with it, for part or all of the way. (The Beasts / Dahan may move to an adjacent land and then back.)"
+  },
+  {
+    "set": "Jagged Earth",
+    "type": "Unique Power: Many Minds Move as One",
+    "name": "Ever-Multiplying Swarm",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Add 2 Beasts."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Downpour Drenches the World",
+    "name": "Foundations Sink into Mud",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "2 damage to Town. If target land is Wetland, you may instead deal 1 Damage to each Town / City."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Downpour Drenches the World",
+    "name": "Gift of Abundance",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Air",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "Target Spirit either gains 2 Energy, or may Repeat one Power Card this turn by paying its cost. Either you or target Spirit may add 1 Destroyed Presence to a Wetland where you have Presence."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Downpour Drenches the World",
+    "name": "Unbearable Deluge",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "1 fear. Push 2 Dahan. Defend 3. If target land is Wetland, Isolate it."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Downpour Drenches the World",
+    "name": "Dark Skies Loose a Stinging Rain",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Wetland"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Damon Westenhofer",
+    "description": "Isolate target land. Push up to 1 Explorer and up to 2 Dahan."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "Traveler's Boon",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Target spirit moves up to 3 of their Presence to one of your lands. They may move up to 1 Invader, 1 Dahan and 1 Beasts along with their Presence. (Total, not for each Presence.)"
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "Offer Passage Between Worlds",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Move up to 4 Dahan between target land and one of your lands. -or- The next time Dahan would be Destroyed in target land, Destroy 2 fewer Dahan."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "Aid from the Spirit-Speakers",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "For each Dahan, you may move 1 Invader / Dahan / Presence / Beasts to a land within 2 Range that has Dahan."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "Paths Tied by Nature",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Move up to 2 Invaders / Dahan / Presence / Beasts to a land within 2 Range that has the same terrain."
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "Ways of Shore and Heartland",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Push up to 2 Invaders / Dahan / Presence / Beasts to a land that is also Coastal / Inland (whichever the target land is.)"
+  },
+  {
+    "set": "Promo2",
+    "type": "Unique Power: Finder of Paths Unseen",
+    "name": "A Circuitous and Wending Journey",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Push up to half (round up) of Invaders from target land. Do likewise (separately) for Dahan, Presence, and Beasts."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Devouring Teeth Lurk Underfoot",
+    "name": "Ferocious Rampage",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. 3 Damage to Explorer / Town only. (+1 Damage to Explorer / Town from your \"Territorial Aggression\" Special Rule.)"
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Devouring Teeth Lurk Underfoot",
+    "name": "Gift of Furious Might",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Once this turn, Target Spirit may deal +3 Damage when using a Damage-dealing Power. (This adds +3 Damage total, even for a Power that Damages multiple Invaders or \"each Invader\".)"
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Devouring Teeth Lurk Underfoot",
+    "name": "Herd Towards the Lurking Maw",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Gather up to 1 Explorer / Town."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Devouring Teeth Lurk Underfoot",
+    "name": "Mark Territory with Scars and Teeth",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Defend 9. 2 Fear if Invaders are present. Push 2 Dahan."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Eyes Watch From the Trees",
+    "name": "Boon of Watchful Guarding",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "In one of Target Spirit's lands, Defend 4. Target Spirit may pay 1 Energy to instead Defend 8. (This Power Defends a single land, letting you use your Special Rule \"Dahan Trust the Watchers.\")"
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Eyes Watch From the Trees",
+    "name": "Eerie Noises and Moving Trees",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "2 Fear. Push up to 2 Explorer / Town."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Eyes Watch From the Trees",
+    "name": "Mysterious Abductions",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. 1 Damage."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Eyes Watch From the Trees",
+    "name": "Whispered Guidance Through the Night",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "land": [
+        "Jungle"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Gather up to 3 Dahan. If Invaders and Dahan are present, 1 Fear."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Fathomless Mud of the Swamp",
+    "name": "Exaltation of Tangled Growth",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Target Spirit may pay 1 Energy to gain a Power Card. You may pay 2 Energy to gain a Power Card."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Fathomless Mud of the Swamp",
+    "name": "Foul Vapors and Fetid Muck",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Invaders",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Push up to 2 Explorer"
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Fathomless Mud of the Swamp",
+    "name": "Intractable Thickets and Thorns",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Moro Rogers",
+    "description": "1 Fear. Defend 5."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Fathomless Mud of the Swamp",
+    "name": "Open Shifting Waterways",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Moro Rogers",
+    "description": "Gather up to 2 Dahan. If Dahan and Invaders are present, 1 Fear and 1 Damage."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Rising Heat of Stone and Sand",
+    "name": "Call on Herders for Aid",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather up to 2 Dahan. For each Dahan present, Push up to 1 Explorer / Town / Dahan."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Rising Heat of Stone and Sand",
+    "name": "Gift of Searing Heat",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Lucas durham",
+    "description": "Target Spirit gains 2 Energy. -or- Target Spirit may pay 1 Energy to do 1 Damage in one of their lands."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Rising Heat of Stone and Sand",
+    "name": "Stinging Sandstorm",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Gather up to 1 of your Presence. 1 Fear and 1 Damage. (If this power makes a SacredSite, your Special Rule applies immediately, giving Invaders there -1 Health and possibly Destroying Damaged Invaders.)"
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Rising Heat of Stone and Sand",
+    "name": "Sweltering Exhaustion",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air"
+    ],
+    "artist": "Lucas Durham",
+    "description": "1 Fear. Skip up to 1 Ravage / Build Action."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Sun-Bright Whirlwind",
+    "name": "Gift of the Sunlit Air",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Target Spirit gets +1 Range with all their Powers. If you target another Spirit, they gain 1 Energy."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Sun-Bright Whirlwind",
+    "name": "Gift of Wind-Sped Steps",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Once this turn, Target Spirit may choose 1 of their Slow Powers with a \"Push\" or \"Gather\" instruction and make that Power Fast (for this turn). If you target another Spirit, they gain 1 Energy."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Sun-Bright Whirlwind",
+    "name": "Scatter to the Winds",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Choose up to 5 Explorer / Town / Dahan. Push them to as many different lands as possible."
+  },
+  {
+    "set": "Horizons of Spirit Island",
+    "type": "Unique Power: Sun-Bright Whirlwind",
+    "name": "Tempest of Leaves and Branches",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Lucas Durham",
+    "description": "Choose up to 5 different Invaders (in target land). 1 Damage to each of them."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Bargain of Coursing Paths",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "2 Dahan",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "Bargain: 1 Presence now and -1 Energy / turn. Now: Mark both target land and another land with 2 or more Dahan. Ongoing: After pieces are added or moved into the marked lands: choose any land, then Move those pieces directly to that land. -If you have- 3 Air, 2 Water, 2 Earth: The Presence cost comes from your Presence tracks."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Bombard with Boulders and Stinging Seeds",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2,
+      "land": [
+        "Mountain",
+        "Jungle"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear. 2 Damage. Add 1 Badlands. -If you have- 2 Air, 2 Earth, 3 Plant: 1 Fear. 2 Damage. Add 1 Wilds."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Exaltation of the Incandescent Sky",
+    "cost": 7,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air",
+      "Water"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Target Spirit may play 1 Power Card by paying its cost, make up to 2 of their Powers Fast this turn, and do 3 Damage in one of their lands. You may do likewise. -If you have- 3 Sun, 3 Fire, 4 Air, 2 Water: In any 4 lands of the island, Skip 1 Invader Action. 5 Fear (total)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Flocking Red-Talons",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 3,
+      "land": [
+        "Wetland"
+      ]
+    },
+    "target": "Any",
+    "elements": [
+      "Air",
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Add 1 Beasts. Move up to 2 Beasts within 3 Range to target land. For each Beasts presents, choose a different Invader. 1 Damage to each of those Invaders. Push 1 Explorer / Town per Beasts. -If you have- 2 Air, 2 Plant, 3 Animal: Repeat this Power on a different land within 3 Range (of target land)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Fragments of Yesteryear",
+    "cost": 7,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon"
+    ],
+    "artist": "David Markiwsky",
+    "description": "Remove all pieces, then Add the pieces matching target land's Setup symbols. -If you have- 3 Sun: This power may be Fast. 3 Moon: Don't remove Dahan, any Spirit's Presence, or Spirit Tokens. Don't add Invaders / Blight."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Inspire the Release of Stolen Lands",
+    "cost": 4,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 2
+    },
+    "target": "No Blight",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "Gather up to 3 Dahan. Remove up to 3 Health worth of Invaders per Dahan. -If you have- 3 Sun, 3 Water, 2 Animal: This Power can target lands with Blight. If Dahan are present, Remove 1 Blight from target land, then Remove 1 Explorer, 1 Town, and 1 City from a land within 1 Range (of target land)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Plague Ships Sail to Distant Ports",
+    "cost": 4,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Coastal, City",
+    "elements": [
+      "Fire",
+      "Air",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear. Add 4 Disease among Coastal lands (on any boards) other than target land. -If you have- 2 Fire, 2 Water, 2 Animal: Instead: 1 Fear. 3 Damage. Spirits may jointly spend 3 Energy per player (aided by removing Disease from the island for 3 Energy each) to remove the top card of the Fear Deck from the game. Add 1 Disease."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Ravaged Undergrowth Slithers Back to Life",
+    "cost": 3,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Blight",
+    "elements": [
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Replace 1 Blight with 1 Wilds. 1 Fear. 3 Damage. Push that Wilds. -If you have- 3 Water, 2 Plant: Add 1 Wilds. You may Push it. In each land with Wilds within 1 Range (of target land): Push 1 Explorer and 1 Town to lands without Wilds."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Rumbling Earthquakes",
+    "cost": 6,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "This Power ignores Health bonuses. 3 Fear. 6 Damage, to Town / City only. 6 Damage among adjacent lands, to Town / City only. -If you have- 4 Earth: 6 Damage among target / adjacent lands, to Town / City only."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Solidify Echoes of Majesty Past",
+    "cost": 4,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Choose one of target Spirit's lands. In that land and each adjacent land, Defend 3. They Add 1 Destroyed Presence to each adjacent land. Skip up to 1 Invader Action at each added Destroyed Presence. -If you have- 2 Sun, 2 Moon, 2 Earth: Target Spirit either Reclaims 1 Power Card or re-gains a Unique Power they previously forgot. They may play it by paying its cost."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Transformative Sacrifice",
+    "cost": 3,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "Target Spirit may Remove up to 3 Presence (from anywhere on the island). Then for each removed Presence, they Take a Minor Power and play it (for free). -If you have- 2 Moon, 3 Fire, 2 Plant: Before taking cards, they may also Remove 1 Presence from their Presence track to Take a Minor Power and play it."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Major Power",
+    "name": "Unearth a Beast of Wrathful Stone",
+    "cost": 5,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "David Markiwsky",
+    "description": "After the next Invader Phase (on any turn) with no Ravage / Build Actions in target land: 3 Fear. 12 Damage. Add 1 Beasts. You may Push that Beasts. 1 Fear and 2 Damage in its land. -If you have- 2 Moon, 3 Earth, 3 Animal: Mark it (Marked). Marked can't leave the island. Each Slow Phase: You may Push Marked. 1 Fear and 2 Damage at Marked."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Minor Power",
+    "name": "Roiling Bog and Snagging Thorn",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Kat Guevara",
+    "description": "1 Fear. Isolate. Defend 2. 1 Dahan does not participate in Ravage. (Check when ravaging; it does not take Damage and does not counterattack.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Breath of Darkness Down Your Spine",
+    "name": "Emerge from the Dread Night Wind",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Air"
+    ],
+    "artist": "David Markiwsky",
+    "description": "Add / Move Incarna to target land. 1 Fear. If exactly 1 Invader is present, Abduct it. Otherwise, Push up to 2 Explorer / Town to different lands. Push up to 2 Dahan."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Breath of Darkness Down Your Spine",
+    "name": "Reach from the Infinite Darkness",
+    "cost": 0,
+    "speed": "Fast",
+    "range": null,
+    "target": "Yourself",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "David Markiwsky",
+    "description": "Abduct up to 2 Presence (of any Spirits, with their permission) from any lands on the island, ignoring land type restrictions on moving Presence. Each Spirit's Presence in Endless Dark grants them +1 Range with all their Powers (this turn)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Breath of Darkness Down Your Spine",
+    "name": "Swallowed by the Endless Dark",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Air",
+      "Water"
+    ],
+    "artist": "David Markiwsky",
+    "description": "2 Fear. Abduct 1 Explorer. -If you have- 3 Moon, 3 Air: Abduct 1 Invader."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Breath of Darkness Down Your Spine",
+    "name": "Terror of the Hunted",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "David Markiwsky",
+    "description": "If Beasts are present, 1 Fear and Add 1 Strife. Add 1 Strife per Terror Level. If target land is Endless Dark, Add 1 Strife. (Strife only escapes with the Invader it's attached to.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Inspire a Winding Dance",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Push up to 1 Explorer / Town. Gather up to 1 Dahan."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Exaltation of Echoed Steps",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Target Spirit may Push 1 Presence, Bringing up to 1 Explorer / Town / Dahan / Beasts. You may do likewise."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Gift of Seismic Energy",
+    "cost": 3,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Emily Hancock",
+    "description": "If you target yourself, gain 3 Energy. Otherwise, target Spirit gains 1 Energy per Power Card you have in play (max. 6). (Don't count Impending Card.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Radiating Tremors",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "2 Damage. You may Push any number of Quake, dividing them as evenly as possible between adjacent lands."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Resounding Footfalls Sow Dismay",
+    "cost": 3,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "1 Fear. Add 1 Quake. Skip all Ravage Actions."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Dances Up Earthquakes",
+    "name": "Rumblings Portend a Greater Quake",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Earth"
+    ],
+    "artist": "Emily Hancock",
+    "description": "If you have at least as many Impending Card as Power Cards in play, 1 Fear and Add 1 Quake. Push up to 3 Dahan."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Ember-Eyed Behemoth",
+    "name": "Blazing Intimidation",
+    "cost": 2,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "David Markiwsky",
+    "description": "1 Fear. Push 2 Explorer / Town to a land without Incarna."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Ember-Eyed Behemoth",
+    "name": "Exaltation of Grasping Roots",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "David Markiwsky",
+    "description": "Target Spirit may Add 1 Wilds in one of their lands. You may do likewise."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Ember-Eyed Behemoth",
+    "name": "Surging Lahar",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Earth"
+    ],
+    "artist": "David Markiwsky",
+    "description": "2 Damage. If your Presence is present, Add 1 Badlands."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Ember-Eyed Behemoth",
+    "name": "Terrifying Rampage",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Moon",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "David Markiwsky",
+    "description": "1 Fear. 2 Invaders don't participate in Ravage. (Choose the Invaders when ravaging; they don't deal Damage or take counterattack Damage.) Push 3 Dahan."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Hearth-Vigil",
+    "name": "Call to Vigilance",
+    "cost": 2,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "landProperty": "Dahan"
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "2 Fear if Invaders are present. For each Dahan in origin land, Push up to 1 Explorer / Town."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Hearth-Vigil",
+    "name": "Coordinated Raid",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "landProperty": "Dahan"
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Animal"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "1 Damage. If Dahan are present, 1 Damage."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Hearth-Vigil",
+    "name": "Favors of Story and Season",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Earth",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "Target Spirit may Gather up to 3 Dahan into one of their lands. If they have at least 3 Dahan among their lands, they gain 1 Energy and may Reclaim 1 Power Card instead of discarding it at the end of turn."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Hearth-Vigil",
+    "name": "Surrounded by the Dahan",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Dahan",
+    "elements": [
+      "Moon",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "2 Fear if Invaders are present. 1 Fear if Dahan outnumber Town / City. Isolate target land."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Relentless Gaze of the Sun",
+    "name": "Blinding Glare",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "SacredSite",
+      "range": 0
+    },
+    "target": "Invaders",
+    "elements": [
+      "Sun",
+      "Air"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "2 Fear. -or- Skip up to one Ravage Action. -If you have- 5 Sun: Instead, 3 Fear. -or- Skip to one Invader Action."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Relentless Gaze of the Sun",
+    "name": "Focus the Sun's Rays",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "1 Damage. 2 Damage to Dahan. Move up to 3 Presence directly to target land (from anywhere on the island). You may Bring 1 Badlands (total) with those Presence."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Relentless Gaze of the Sun",
+    "name": "Unbearable Gaze",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "1 Fear. Push 2 Explorer / Town from origin or target land (or 1 Explorer / Town from each)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Relentless Gaze of the Sun",
+    "name": "Wither Bodies, Scar Stones",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 2
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Earth"
+    ],
+    "artist": "Agnieszka Dąbrowiecka",
+    "description": "1 Damage. -or- Add 1 Badlands."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Towering Roots of the Jungle",
+    "name": "Blooming of the Rocks and Trees",
+    "cost": 0,
+    "speed": "Slow",
+    "range": {
+      "from": "SacredSite",
+      "range": 1
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Air",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "If no Blight is present, Add 1 Vitality. -or- If no Invaders are present, Add 1 Wilds. -If you have- 3 Plant: You may do both."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Towering Roots of the Jungle",
+    "name": "Boon of Resilient Power",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "Target Spirit may Add 1 Destroyed Presence to one of your lands. If you target yourself, gain a Major Power. Otherwise, target Spirits gains a Power Card."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Towering Roots of the Jungle",
+    "name": "Entwine the Fates of All",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Moon",
+      "Water",
+      "Earth",
+      "Plant"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "In one of target Spirit's lands, Defend 2 per Presence (from all Spirits)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Towering Roots of the Jungle",
+    "name": "Radiant and Hallowed Grove",
+    "cost": 2,
+    "speed": "Fast",
+    "range": null,
+    "target": "Incarna",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Fire",
+      "Plant"
+    ],
+    "artist": "Aalaa Yassin",
+    "description": "2 Fear if Invaders are present or adjacent. In both target and one adjacent land, you may Remove an Invader with Health less than or equal to the Terror Level. (Damage doesn't reduce Health.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wandering Voice Keens Delirium",
+    "name": "Exhale Confusion and Delirium",
+    "cost": 0,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Strfe",
+    "elements": [
+      "Sun",
+      "Animal",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Emily Hancock",
+    "description": "2 Fear. Invaders with Strife don't participate in Ravage. (Check when ravaging; they don't deal Damage or take counterattack Damage.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wandering Voice Keens Delirium",
+    "name": "Frightful Keening",
+    "cost": 1,
+    "speed": "Slow",
+    "range": null,
+    "target": "Incarna",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Air"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Push Incarna. If this pushes Incarna into a land with Invaders, 2 Fear there (before adding Strife)."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wandering Voice Keens Delirium",
+    "name": "Turmoil's Touch",
+    "cost": 0,
+    "speed": "Slow",
+    "range": null,
+    "target": "Another Spirit",
+    "elements": [
+      "Sun",
+      "Moon",
+      "Air",
+      "Plant"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Target Spirit may either pay 1 Energy or discard a Power Card (from hand) to Take a Minor Power into their discard. You may do likewise"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wandering Voice Keens Delirium",
+    "name": "Twist Perceptions",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1
+    },
+    "target": "Invaders",
+    "elements": [
+      "Animal",
+      "Air",
+      "Animal"
+    ],
+    "artist": "Emily Hancock",
+    "description": "Add 1 Strife. You may Push the Invader you added Strife to. (If you add Strife to Explorer / Town, you can push that Invader first with Senseless Roaming before pushing it with this Power.)"
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wounded Waters Bleeding",
+    "name": "Blood Water and Bloodlust",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "landProperty": "Blight"
+    },
+    "target": "Any",
+    "elements": [
+      "Fire",
+      "Water",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Add 1 Beasts and 1 Disease."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wounded Waters Bleeding",
+    "name": "Boon of Corrupted Blood",
+    "cost": 1,
+    "speed": "Fast",
+    "range": null,
+    "target": "Any Spirit",
+    "elements": [
+      "Sun",
+      "Fire",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "1 Damage in one of target Spirit's lands. If you target another Spirit, in that land also: Destroy 1 of their Presence. 1 Damage. Gather 1 Beasts."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wounded Waters Bleeding",
+    "name": "Draw to the Water's Edge",
+    "cost": 1,
+    "speed": "Fast",
+    "range": {
+      "from": "Presence",
+      "range": 0
+    },
+    "target": "Any",
+    "elements": [
+      "Sun",
+      "Water",
+      "Plant"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "Gather up to 2 Town from a single land."
+  },
+  {
+    "set": "Nature Incarnate",
+    "type": "Unique Power: Wounded Waters Bleeding",
+    "name": "Wrack with Pain and Grief",
+    "cost": 1,
+    "speed": "Slow",
+    "range": {
+      "from": "Presence",
+      "range": 1,
+      "landProperty": "Blight"
+    },
+    "target": "Invaders",
+    "elements": [
+      "Water",
+      "Plant",
+      "Animal"
+    ],
+    "artist": "Nolan Nasser",
+    "description": "2 Fear. Push 1 Explorer and 1 Town."
+  }
+]

@@ -1,1 +1,37 @@
-/* You can add global styles to this file, and also import other style files */
+/* Global design tokens */
+
+:root {
+  --paper: #eef2e8;
+  --ink: #1c2420;
+  --moss: #5b8a6a;
+  --moss-deep: #2f5a42;
+  --clay: #c4785a;
+  --sky: #6a8fad;
+  --font-display: 'Fraunces', 'Palatino Linotype', Palatino, Georgia, serif;
+  --font-body: 'Source Sans 3', 'Trebuchet MS', 'Segoe UI', sans-serif;
+  --font-mono: 'IBM Plex Mono', 'Cascadia Code', ui-monospace, monospace;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: var(--paper);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: inherit;
+}

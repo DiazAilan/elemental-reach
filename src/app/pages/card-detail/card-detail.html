@@ -1,0 +1,56 @@
+<p class="back"><a routerLink="/">← Back to search</a></p>
+
+@if (!loaded()) {
+  <p>Loading…</p>
+} @else if (error(); as err) {
+  <p class="error">{{ err }}</p>
+} @else if (card(); as card) {
+  <article class="card-detail">
+    <header>
+      <p class="type">{{ card.type }}</p>
+      <h1>{{ card.name }}</h1>
+      <p class="set">{{ card.set }}</p>
+    </header>
+
+    <dl class="stats">
+      <div>
+        <dt>Cost</dt>
+        <dd>{{ card.cost }}</dd>
+      </div>
+      <div>
+        <dt>Speed</dt>
+        <dd>{{ card.speed }}</dd>
+      </div>
+      <div>
+        <dt>Range</dt>
+        <dd>{{ formatRange(card.range) }}</dd>
+      </div>
+      <div>
+        <dt>Target</dt>
+        <dd>{{ card.target }}</dd>
+      </div>
+      <div class="wide">
+        <dt>Elements</dt>
+        <dd>
+          <div class="elements">
+            @for (el of card.elements; track el) {
+              <span class="el" [attr.data-el]="el">{{ el }}</span>
+            }
+          </div>
+        </dd>
+      </div>
+      <div class="wide">
+        <dt>Artist</dt>
+        <dd>{{ card.artist }}</dd>
+      </div>
+    </dl>
+
+    <section class="effect">
+      <h2>Effect</h2>
+      <p>{{ card.description }}</p>
+    </section>
+  </article>
+} @else {
+  <p class="error">Power not found.</p>
+  <p><a routerLink="/">Return to search</a></p>
+}
