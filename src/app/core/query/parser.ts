@@ -1,7 +1,9 @@
 import { type ComparisonType, type Token, lex } from './lexer';
 import { CARD_PROPERTIES } from '../models/power-card';
+import type { Element } from '../models/power-card';
+import { resolveElementAliasPack } from './element-aliases';
 
-export type Filter = And | Or | Not | Text | Regex | PropFilter;
+export type Filter = And | Or | Not | Text | Regex | PropFilter | ElementSetFilter;
 
 export interface And {
   kind: 'and';
@@ -40,6 +42,17 @@ export interface NumFilter {
   kind: 'numfilter';
   typ: ComparisonType;
   number: number;
+}
+
+/** Set comparison on card elements, e.g. e>a, e=asm, e<=as */
+export interface ElementSetFilter {
+  kind: 'elementset';
+  op: ComparisonType;
+  elements: Element[];
+}
+
+function canonicalizeProperty(property: string): string {
+  return property === 'e' ? 'elements' : property;
 }
 
 type PropValueFilter = NumFilter | Text | Regex | PropAnd | PropOr | PropNot;
@@ -210,6 +223,11 @@ function parseFiltersWithPrecedence(
 }
 
 function parseFilter(index: number, tokens: Token[]): ParseResult<Filter> {
+  const elementSetRes = parseElementSetFilter(index, tokens);
+  if (elementSetRes != null) {
+    return elementSetRes;
+  }
+
   const propRes = parsePropertyFilter(index, tokens);
   if (propRes != null) {
     return propRes;
@@ -229,6 +247,60 @@ function parseFilter(index: number, tokens: Token[]): ParseResult<Filter> {
   return { index: newIndex, result: { kind: 'regex', regex } };
 }
 
+/**
+ * Parses e>a / e<=as / e=asm / elements>=fn (letter-pack set ops).
+ */
+function parseElementSetFilter(index: number, tokens: Token[]): ParseResult<ElementSetFilter> {
+  if (eof(index, tokens)) {
+    return null;
+  }
+  const nameTok = tokens[index]!;
+  if (nameTok.kind !== 'word') {
+    return null;
+  }
+  const name = nameTok.text.toLowerCase();
+  if (name !== 'e' && name !== 'elements') {
+    return null;
+  }
+
+  let i = index + 1;
+  const ws1 = consumeWhitespace(i, tokens);
+  if (ws1) {
+    i = ws1.index;
+  }
+  if (eof(i, tokens)) {
+    return null;
+  }
+
+  const opTok = tokens[i]!;
+  if (opTok.kind !== 'comparison') {
+    return null;
+  }
+  i += 1;
+
+  const ws2 = consumeWhitespace(i, tokens);
+  if (ws2) {
+    i = ws2.index;
+  }
+  if (eof(i, tokens)) {
+    return null;
+  }
+
+  const packTok = tokens[i]!;
+  if (packTok.kind !== 'word') {
+    return null;
+  }
+  const pack = resolveElementAliasPack(packTok.text);
+  if (!pack) {
+    return null;
+  }
+
+  return {
+    index: i + 1,
+    result: { kind: 'elementset', op: opTok.typ, elements: pack },
+  };
+}
+
 function parsePropertyFilter(index: number, tokens: Token[]): ParseResult<Filter> {
   const res = applyParseFunctions(
     index,
@@ -245,8 +317,9 @@ function parsePropertyFilter(index: number, tokens: Token[]): ParseResult<Filter
 
   const {
     index: newIndex,
-    result: [property, , , , valueFilterList],
+    result: [propertyRaw, , , , valueFilterList],
   } = res;
+  const property = canonicalizeProperty(String(propertyRaw).toLowerCase());
   if (!CARD_PROPERTIES.includes(property as (typeof CARD_PROPERTIES)[number])) {
     console.error(
       "Unknown card property '" + property + "'\nAllowed properties are: " + CARD_PROPERTIES.join(', '),
@@ -282,7 +355,7 @@ function parsePropertyFilter(index: number, tokens: Token[]): ParseResult<Filter
     }
   }
 
-  return { index, result: convertPropertyFilter(property as string, valueFilterList as PropValueFilter) };
+  return { index, result: convertPropertyFilter(property, valueFilterList as PropValueFilter) };
 }
 
 function parsePropertyFilterValueList(

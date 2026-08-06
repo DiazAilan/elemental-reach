@@ -127,7 +127,7 @@ function consumePossiblyEscapedChar(index: number, s: string): LexResult<undefin
 
 function lexWord(index: number, s: string): LexResult<Token> {
   const startIndex = index;
-  const { index: newIndex, result: word } = matchRegex(index, s, /[^:,|()\s]/);
+  const { index: newIndex, result: word } = matchRegex(index, s, /[^:,|()\s<=>]/);
   return {
     index: newIndex,
     result: { kind: 'word', span: [startIndex, newIndex], text: word },

@@ -138,13 +138,103 @@ describe('parser + evaluator', () => {
     expect(hits.map((c) => c.name).sort()).toEqual(['Gift of Proliferation', 'Tsunami']);
   });
 
-  it('supports major keyword via free text', () => {
+  it('matches element letter aliases as free text', () => {
+    const ast = parseFilters('p e');
+    expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Call to Tend']);
+  });
+
+  it('matches packed element letters (AND)', () => {
+    const ast = parseFilters('fn');
+    expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Savage Mawbeasts']);
+  });
+
+  it('maps N to Animal and A to Air', () => {
+    const withAir = card({
+      name: 'Lightning Test',
+      elements: ['Fire', 'Air'],
+      description: 'Zap.',
+    });
+    const cards = [...sample, withAir];
+    expect(filterCards(cards, parseFilters('a')).map((c) => c.name)).toEqual(['Lightning Test']);
+    expect(filterCards(cards, parseFilters('n')).map((c) => c.name)).toEqual(['Savage Mawbeasts']);
+  });
+
+  it('supports element letters on elements: field', () => {
+    const ast = parseFilters('elements:pe');
+    expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Call to Tend']);
+  });
+
+  it('still matches full element names', () => {
+    const ast = parseFilters('elements:plant elements:earth');
+    expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Call to Tend']);
+  });
+
+  it('does not treat words like major as letter packs', () => {
     const ast = parseFilters('major');
     expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Tsunami']);
   });
 
   it('returns all cards for empty parse', () => {
     expect(filterCards(sample, null)).toHaveLength(sample.length);
+  });
+
+  it('maps e: to elements:', () => {
+    const ast = parseFilters('e:pe');
+    expect(ast?.kind).toBe('propfilter');
+    if (ast?.kind === 'propfilter') {
+      expect(ast.property).toBe('elements');
+    }
+    expect(filterCards(sample, ast).map((c) => c.name)).toEqual(['Call to Tend']);
+  });
+
+  it('e>a requires Air plus another element', () => {
+    const withAirOnly = card({ name: 'Air Only', elements: ['Air'], description: 'Breezy.' });
+    const withAirMore = card({
+      name: 'Air Fire',
+      elements: ['Air', 'Fire'],
+      description: 'Hot wind.',
+    });
+    const cards = [...sample, withAirOnly, withAirMore];
+    expect(filterCards(cards, parseFilters('e>a')).map((c) => c.name)).toEqual(['Air Fire']);
+  });
+
+  it('e<=as is subset of Air/Sun', () => {
+    const air = card({ name: 'Just Air', elements: ['Air'], description: 'x' });
+    const sun = card({ name: 'Just Sun', elements: ['Sun'], description: 'x' });
+    const both = card({ name: 'Air Sun', elements: ['Air', 'Sun'], description: 'x' });
+    const extra = card({ name: 'Air Plant', elements: ['Air', 'Plant'], description: 'x' });
+    const cards = [air, sun, both, extra];
+    expect(filterCards(cards, parseFilters('e<=as')).map((c) => c.name).sort()).toEqual([
+      'Air Sun',
+      'Just Air',
+      'Just Sun',
+    ]);
+  });
+
+  it('e=asm is exact set equality', () => {
+    const exact = card({
+      name: 'Exact ASM',
+      elements: ['Air', 'Sun', 'Moon'],
+      description: 'x',
+    });
+    const more = card({
+      name: 'ASM Fire',
+      elements: ['Air', 'Sun', 'Moon', 'Fire'],
+      description: 'x',
+    });
+    const cards = [...sample, exact, more];
+    expect(filterCards(cards, parseFilters('e=asm')).map((c) => c.name)).toEqual(['Exact ASM']);
+  });
+
+  it('e>=ps is superset (at least Plant and Sun)', () => {
+    const exactly = card({ name: 'PS', elements: ['Plant', 'Sun'], description: 'x' });
+    const more = card({ name: 'PSE', elements: ['Plant', 'Sun', 'Earth'], description: 'x' });
+    const missing = card({ name: 'P only', elements: ['Plant'], description: 'x' });
+    const cards = [exactly, more, missing];
+    expect(filterCards(cards, parseFilters('e>=ps')).map((c) => c.name).sort()).toEqual([
+      'PS',
+      'PSE',
+    ]);
   });
 });
 

@@ -8,10 +8,28 @@ import { RouterLink } from '@angular/router';
   styleUrl: './docs.scss',
 })
 export class DocsPage {
+  readonly elementLetters = [
+    { letter: 'S', element: 'Sun' },
+    { letter: 'M', element: 'Moon' },
+    { letter: 'F', element: 'Fire' },
+    { letter: 'A', element: 'Air' },
+    { letter: 'W', element: 'Water' },
+    { letter: 'E', element: 'Earth' },
+    { letter: 'P', element: 'Plant' },
+    { letter: 'N', element: 'Animal' },
+  ];
+
   readonly examples = [
     { query: 'Gather Dahan', note: 'Free-text match across all fields' },
     { query: '"Dahan and" major', note: 'Exact phrase + type keyword' },
-    { query: 'elements:plant elements:earth', note: 'Must include both elements' },
+    { query: 'ps', note: 'Plant + Sun via letter shortcuts (packed)' },
+    { query: 'e:fn', note: 'e: is short for elements: (Fire + Animal)' },
+    { query: 'e>a', note: 'Has Air and at least one more element' },
+    { query: 'e<=as', note: 'Only Air and/or Sun (subset)' },
+    { query: 'e=asm', note: 'Exactly Air + Sun + Moon' },
+    { query: 'e>=ps', note: 'Has at least Plant and Sun (maybe more)' },
+    { query: 'p e', note: 'Plant + Earth as separate letters' },
+    { query: 'elements:plant elements:earth', note: 'Full element names still work' },
     { query: 'description:"add 1 presence"', note: 'Search effect text only' },
     { query: 'range:sacred range:>=2', note: 'Sacred Site origin and range ≥ 2' },
     { query: 'cost:<5', note: 'Energy cost less than 5' },

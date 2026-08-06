@@ -10,8 +10,32 @@
   <p>
     <code>set</code>, <code>type</code>, <code>name</code>, <code>cost</code>,
     <code>speed</code>, <code>range</code>, <code>target</code>,
-    <code>elements</code>, <code>artist</code>, <code>description</code>
+    <code>elements</code> (alias <code>e</code>), <code>artist</code>, <code>description</code>
   </p>
+
+  <h2>Element letters</h2>
+  <p>
+    Use a letter (or pack several) instead of full element names.
+    Animal is <code>N</code> so <code>A</code> means Air.
+  </p>
+  <ul class="letter-grid">
+    @for (row of elementLetters; track row.letter) {
+      <li><code>{{ row.letter }}</code> → {{ row.element }}</li>
+    }
+  </ul>
+  <p class="lede tight">
+    Examples: <code>ps</code> = Plant + Sun, <code>e:fn</code> = Fire + Animal.
+  </p>
+
+  <h2>Element set operators</h2>
+  <p>Compare a card’s element set to a letter pack:</p>
+  <ul class="tips">
+    <li><code>e=asm</code> — exactly Air, Sun, and Moon</li>
+    <li><code>e&gt;a</code> — has Air and at least one more element</li>
+    <li><code>e&gt;=ps</code> — has at least Plant and Sun</li>
+    <li><code>e&lt;=as</code> — only Air and/or Sun (no other elements)</li>
+    <li><code>e&lt;as</code> — proper subset of Air/Sun (e.g. only Air)</li>
+  </ul>
 
   <h2>Examples</h2>
   <ul>
@@ -25,9 +49,15 @@
 
   <h2>Tips</h2>
   <ul class="tips">
-    <li>Comparisons on numbers: <code>cost:&lt;3</code>, <code>range:&gt;=2</code>, <code>cost:=1</code></li>
+    <li>
+      Comparisons on numbers:
+      <code>cost:&lt;3</code>,
+      <code>range:&gt;=2</code>,
+      <code>cost:=1</code>
+    </li>
     <li>Quotes for multi-word phrases: <code>"add 1 presence"</code></li>
     <li>Bare words like <code>major</code>, <code>minor</code>, or <code>unique</code> match the type field via free text</li>
+    <li>Element letter packs only match when every character is an alias (so <code>plant</code> / <code>sun</code> still work as normal text)</li>
     <li>Press <kbd>s</kbd> anywhere (outside inputs) to focus the search box</li>
   </ul>
 </article>

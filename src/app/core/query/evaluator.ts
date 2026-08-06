@@ -4,13 +4,23 @@ import {
   rangeNumericValue,
   type CardProperty,
 } from '../models/power-card';
+import {
+  cardHasAllElements,
+  compareElementSets,
+  resolveElementAliasPack,
+} from './element-aliases';
 import type { ComparisonType } from './lexer';
 import type { Filter, NumFilter, PropFilter } from './parser';
 
 export function matchesFilter(card: PowerCard, filter: Filter): boolean {
   switch (filter.kind) {
-    case 'text':
+    case 'text': {
+      const aliases = resolveElementAliasPack(filter.text);
+      if (aliases) {
+        return cardHasAllElements(card.elements, aliases);
+      }
       return card.searchString.includes(filter.text.toLowerCase());
+    }
     case 'regex':
       try {
         return card.searchString.search(filter.regex === '' ? /(?:)/ : new RegExp(filter.regex)) !== -1;
@@ -25,6 +35,8 @@ export function matchesFilter(card: PowerCard, filter: Filter): boolean {
       return matchesFilter(card, filter.a) || matchesFilter(card, filter.b);
     case 'propfilter':
       return matchesPropFilter(card, filter);
+    case 'elementset':
+      return compareElementSets(card.elements, filter.elements, filter.op);
     default:
       return assertNever(filter);
   }
@@ -47,6 +59,13 @@ function matchesPropFilter(card: PowerCard, filter: PropFilter): boolean {
       return false;
     }
     return compareNumber(numeric, valueFilter);
+  }
+
+  if (valueFilter.kind === 'text' && property === 'elements') {
+    const aliases = resolveElementAliasPack(valueFilter.text);
+    if (aliases) {
+      return cardHasAllElements(card.elements, aliases);
+    }
   }
 
   const text = getTextProperty(card, property);
