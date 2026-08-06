@@ -1,0 +1,6 @@
+Element icons from the Spirit Island Wiki (via Gudradain/spirit-island-template):
+  https://spiritislandwiki.com/
+  https://github.com/Gudradain/spirit-island-template
+
+Licensed under Creative Commons Attribution-NonCommercial-ShareAlike 4.0.
+Spirit Island and related marks are © Greater Than Games, LLC.

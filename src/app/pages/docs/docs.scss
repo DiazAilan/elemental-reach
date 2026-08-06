@@ -68,17 +68,24 @@ ul li span {
 
 .letter-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(9rem, 1fr));
-  gap: 0.35rem 1rem;
+  grid-template-columns: repeat(auto-fill, minmax(11rem, 1fr));
+  gap: 0.45rem 1rem;
   list-style: none;
   padding: 0;
   margin: 0.75rem 0 0.5rem;
 }
 
 .letter-grid li {
-  display: block;
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
   border: 0;
-  padding: 0.2rem 0;
+  padding: 0.25rem 0;
+}
+
+.letter-grid li span {
+  color: color-mix(in oklab, var(--ink) 70%, transparent);
+  font-size: 0.95rem;
 }
 
 .lede.tight {

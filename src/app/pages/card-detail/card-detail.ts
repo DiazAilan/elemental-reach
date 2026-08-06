@@ -4,10 +4,11 @@ import { ActivatedRoute, RouterLink } from '@angular/router';
 import { map } from 'rxjs';
 import { formatRange } from '../../core/models/power-card';
 import { CardCatalogService } from '../../core/services/card-catalog.service';
+import { ElementIcon } from '../../shared/element-icon';
 
 @Component({
   selector: 'app-card-detail-page',
-  imports: [RouterLink],
+  imports: [RouterLink, ElementIcon],
   templateUrl: './card-detail.html',
   styleUrl: './card-detail.scss',
 })

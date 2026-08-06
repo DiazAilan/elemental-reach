@@ -158,40 +158,8 @@ td a:hover {
 .elements {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
-}
-
-.el {
-  font-size: 0.7rem;
-  font-weight: 600;
-  padding: 0.15rem 0.35rem;
-  border-radius: 4px;
-  background: color-mix(in oklab, var(--ink) 8%, white);
-}
-
-.el[data-el='Sun'] {
-  background: #f6e27a;
-}
-.el[data-el='Moon'] {
-  background: #d5d8e8;
-}
-.el[data-el='Fire'] {
-  background: #f0a07a;
-}
-.el[data-el='Air'] {
-  background: #c9e7f2;
-}
-.el[data-el='Water'] {
-  background: #8ec6e6;
-}
-.el[data-el='Earth'] {
-  background: #c4a882;
-}
-.el[data-el='Plant'] {
-  background: #9dcb8c;
-}
-.el[data-el='Animal'] {
-  background: #e0b48a;
+  gap: 0;
+  align-items: center;
 }
 
 .empty {

@@ -1,4 +1,10 @@
-import { Component, DestroyRef, computed, inject, signal } from '@angular/core';
+import {
+  Component,
+  DestroyRef,
+  computed,
+  inject,
+  signal,
+} from '@angular/core';
 import { takeUntilDestroyed, toObservable, toSignal } from '@angular/core/rxjs-interop';
 import { FormsModule } from '@angular/forms';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
@@ -6,10 +12,11 @@ import { debounceTime, distinctUntilChanged, map, skip } from 'rxjs';
 import { formatRange } from '../../core/models/power-card';
 import { QueryService, type SortField } from '../../core/query/query.service';
 import { CardCatalogService } from '../../core/services/card-catalog.service';
+import { ElementIcon } from '../../shared/element-icon';
 
 @Component({
   selector: 'app-search-page',
-  imports: [FormsModule, RouterLink],
+  imports: [FormsModule, RouterLink, ElementIcon],
   templateUrl: './search.html',
   styleUrl: './search.scss',
 })

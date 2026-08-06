@@ -1,14 +1,16 @@
 import { Component } from '@angular/core';
 import { RouterLink } from '@angular/router';
+import type { Element } from '../../core/models/power-card';
+import { ElementIcon } from '../../shared/element-icon';
 
 @Component({
   selector: 'app-docs-page',
-  imports: [RouterLink],
+  imports: [RouterLink, ElementIcon],
   templateUrl: './docs.html',
   styleUrl: './docs.scss',
 })
 export class DocsPage {
-  readonly elementLetters = [
+  readonly elementLetters: { letter: string; element: Element }[] = [
     { letter: 'S', element: 'Sun' },
     { letter: 'M', element: 'Moon' },
     { letter: 'F', element: 'Fire' },

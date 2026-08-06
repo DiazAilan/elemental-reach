@@ -20,7 +20,11 @@
   </p>
   <ul class="letter-grid">
     @for (row of elementLetters; track row.letter) {
-      <li><code>{{ row.letter }}</code> → {{ row.element }}</li>
+      <li>
+        <app-element-icon [element]="row.element" />
+        <code>{{ row.letter }}</code>
+        <span>{{ row.element }}</span>
+      </li>
     }
   </ul>
   <p class="lede tight">

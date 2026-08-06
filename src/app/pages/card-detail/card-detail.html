@@ -34,7 +34,7 @@
         <dd>
           <div class="elements">
             @for (el of card.elements; track el) {
-              <span class="el" [attr.data-el]="el">{{ el }}</span>
+              <app-element-icon [element]="el" size="lg" />
             }
           </div>
         </dd>
