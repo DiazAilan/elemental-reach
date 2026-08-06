@@ -98,14 +98,30 @@ export class SearchPage {
     return this.ascending() ? ' ↑' : ' ↓';
   }
 
-  typeClass(type: string): string {
-    if (type.startsWith('Unique')) {
+  typeClass(card: { type: string; kind: string; aspect: string | null }): string {
+    if (card.aspect) {
+      return 'aspect';
+    }
+    if (card.kind === 'innate' || card.type.startsWith('Innate')) {
+      return 'innate';
+    }
+    if (card.type.startsWith('Unique') || card.kind === 'unique') {
       return 'unique';
     }
-    if (type.startsWith('Major')) {
+    if (card.type.startsWith('Major') || card.kind === 'major') {
       return 'major';
     }
     return 'minor';
+  }
+
+  typeLabel(card: { type: string; aspect: string | null }): string {
+    let label = card.type
+      .replace('Unique Power: ', 'Unique · ')
+      .replace('Innate Power: ', 'Innate · ');
+    if (card.aspect) {
+      label = `Aspect · ${card.aspect}`;
+    }
+    return label;
   }
 
   private commitQuery(value: string): void {

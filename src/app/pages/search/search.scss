@@ -155,6 +155,16 @@ td a:hover {
   color: color-mix(in oklab, var(--sky) 55%, black);
 }
 
+.badge.innate {
+  background: color-mix(in oklab, #7a6bb0 25%, white);
+  color: color-mix(in oklab, #7a6bb0 55%, black);
+}
+
+.badge.aspect {
+  background: color-mix(in oklab, #b08a3c 28%, white);
+  color: color-mix(in oklab, #8a6420 70%, black);
+}
+
 .elements {
   display: flex;
   flex-wrap: wrap;

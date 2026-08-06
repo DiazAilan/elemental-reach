@@ -10,17 +10,32 @@ import { parseFilters } from './parser';
 import { QueryService } from './query.service';
 
 function card(partial: Partial<PowerCard> & Pick<PowerCard, 'name'>): PowerCard {
+  const type = partial.type ?? 'Minor Power';
+  const kind =
+    partial.kind ??
+    (type.startsWith('Innate')
+      ? 'innate'
+      : type.startsWith('Unique')
+        ? 'unique'
+        : type.startsWith('Major')
+          ? 'major'
+          : 'minor');
   const base = {
     set: partial.set ?? 'Basegame',
-    type: partial.type ?? 'Minor Power',
+    type,
     name: partial.name,
-    cost: partial.cost ?? 1,
+    cost: partial.cost === undefined ? 1 : partial.cost,
     speed: partial.speed ?? ('Slow' as const),
     range: partial.range ?? { from: 'Presence' as const, range: 1 },
     target: partial.target ?? 'Any',
     elements: partial.elements ?? (['Plant', 'Earth'] as PowerCard['elements']),
     artist: partial.artist ?? 'Test Artist',
     description: partial.description ?? 'Add 1 Presence.',
+    kind,
+    tags: partial.tags ?? [kind],
+    spirit: partial.spirit ?? null,
+    aspect: partial.aspect ?? null,
+    thresholds: partial.thresholds,
   };
   return {
     ...base,
@@ -108,7 +123,7 @@ describe('parser + evaluator', () => {
   it('matches numeric cost comparisons', () => {
     const ast = parseFilters('cost:<5');
     const hits = filterCards(sample, ast);
-    expect(hits.every((c) => c.cost < 5)).toBe(true);
+    expect(hits.every((c) => c.cost != null && c.cost < 5)).toBe(true);
     expect(hits.map((c) => c.name)).not.toContain('Tsunami');
   });
 
@@ -257,5 +272,33 @@ describe('matchesFilter edge', () => {
     const ast = parseFilters('/(/');
     expect(ast?.kind).toBe('regex');
     expect(matchesFilter(sample[0]!, ast!)).toBe(false);
+  });
+
+  it('matches innate and aspect tags', () => {
+    const cards = [
+      card({
+        name: 'Raging Storm',
+        type: 'Innate Power: Lightning',
+        kind: 'innate',
+        tags: ['innate'],
+        cost: null,
+        spirit: "Lightning's Swift Strike",
+      }),
+      card({
+        name: 'Smite Aspect',
+        type: 'Unique Power: Sparking',
+        kind: 'unique',
+        tags: ['unique', 'aspect'],
+        aspect: 'Sparking',
+        spirit: "Lightning's Swift Strike",
+        cost: 2,
+      }),
+      ...sample,
+    ];
+    expect(filterCards(cards, parseFilters('innate')).map((c) => c.name)).toEqual(['Raging Storm']);
+    expect(filterCards(cards, parseFilters('aspect')).map((c) => c.name)).toEqual(['Smite Aspect']);
+    expect(filterCards(cards, parseFilters('aspect:sparking')).map((c) => c.name)).toEqual([
+      'Smite Aspect',
+    ]);
   });
 });

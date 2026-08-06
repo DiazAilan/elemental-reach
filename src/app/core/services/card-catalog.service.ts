@@ -5,7 +5,9 @@ import {
   PowerCard,
   buildSearchString,
   slugifyName,
+  type CardKind,
   type Element,
+  type InnateThreshold,
   type PowerRange,
   type Speed,
 } from '../models/power-card';
@@ -14,13 +16,18 @@ interface RawPowerCard {
   set: string;
   type: string;
   name: string;
-  cost: number;
+  cost: number | null;
   speed: Speed;
   range: PowerRange | null;
   target: string;
   elements: Element[];
   artist: string;
   description: string;
+  kind?: CardKind;
+  tags?: string[];
+  spirit?: string | null;
+  aspect?: string | null;
+  thresholds?: InnateThreshold[];
 }
 
 @Injectable({ providedIn: 'root' })
@@ -67,6 +74,13 @@ export class CardCatalogService {
   }
 
   private normalize(raw: RawPowerCard): PowerCard {
+    const kind = raw.kind ?? inferKind(raw.type);
+    const tags = raw.tags?.length ? raw.tags : [kind];
+    const spirit =
+      raw.spirit ??
+      (String(raw.type).match(/^Unique Power:\s*(.+)$/)?.[1] ??
+        String(raw.type).match(/^Innate Power:\s*(.+)$/)?.[1] ??
+        null);
     const base = {
       set: raw.set,
       type: raw.type,
@@ -76,8 +90,13 @@ export class CardCatalogService {
       range: raw.range,
       target: raw.target,
       elements: raw.elements,
-      artist: raw.artist,
+      artist: raw.artist ?? '',
       description: raw.description,
+      kind,
+      tags,
+      spirit,
+      aspect: raw.aspect ?? null,
+      thresholds: raw.thresholds,
     };
     return {
       ...base,
@@ -85,4 +104,17 @@ export class CardCatalogService {
       searchString: buildSearchString(base),
     };
   }
+}
+
+function inferKind(type: string): CardKind {
+  if (type.startsWith('Innate')) {
+    return 'innate';
+  }
+  if (type.startsWith('Unique')) {
+    return 'unique';
+  }
+  if (type.startsWith('Major')) {
+    return 'major';
+  }
+  return 'minor';
 }

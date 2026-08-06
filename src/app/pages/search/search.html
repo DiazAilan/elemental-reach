@@ -50,12 +50,14 @@
       <tbody>
         @for (card of results(); track card.id) {
           <tr>
-            <td><span class="badge" [class]="typeClass(card.type)">{{ card.type.replace('Unique Power: ', 'Unique · ') }}</span></td>
+            <td>
+              <span class="badge" [class]="typeClass(card)">{{ typeLabel(card) }}</span>
+            </td>
             <td>
               <a [routerLink]="['/card', card.id]">{{ card.name }}</a>
               <div class="desc">{{ card.description }}</div>
             </td>
-            <td class="num">{{ card.cost }}</td>
+            <td class="num">{{ card.cost == null ? '—' : card.cost }}</td>
             <td>{{ card.speed }}</td>
             <td>{{ formatRange(card.range) }}</td>
             <td>{{ card.target }}</td>

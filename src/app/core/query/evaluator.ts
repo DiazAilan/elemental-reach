@@ -68,6 +68,10 @@ function matchesPropFilter(card: PowerCard, filter: PropFilter): boolean {
     }
   }
 
+  if (valueFilter.kind === 'text' && property === 'tags') {
+    return card.tags.some((t) => t.toLowerCase().includes(valueFilter.text.toLowerCase()));
+  }
+
   const text = getTextProperty(card, property);
   if (text == null) {
     return false;
@@ -105,7 +109,7 @@ function getTextProperty(card: PowerCard, property: string): string | null {
     case 'name':
       return card.name;
     case 'cost':
-      return String(card.cost);
+      return card.cost == null ? null : String(card.cost);
     case 'speed':
       return card.speed;
     case 'range':
@@ -118,6 +122,14 @@ function getTextProperty(card: PowerCard, property: string): string | null {
       return card.artist;
     case 'description':
       return card.description;
+    case 'kind':
+      return card.kind;
+    case 'tags':
+      return card.tags.join(',');
+    case 'spirit':
+      return card.spirit;
+    case 'aspect':
+      return card.aspect;
     default:
       return null;
   }

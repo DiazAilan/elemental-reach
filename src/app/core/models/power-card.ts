@@ -12,6 +12,8 @@ export type Element =
 
 export type Source = 'Presence' | 'SacredSite';
 
+export type CardKind = 'minor' | 'major' | 'unique' | 'innate';
+
 export interface PowerRange {
   from: Source;
   /** Single range or dual-range values (e.g. 1 & 2). */
@@ -20,14 +22,20 @@ export interface PowerRange {
   landProperty?: string;
 }
 
+export interface InnateThreshold {
+  elements: Partial<Record<Element, number>>;
+  text: string;
+}
+
 export interface PowerCard {
   /** Stable id derived from the card name. */
   id: string;
   set: string;
-  /** e.g. "Minor Power", "Major Power", or "Unique Power: Lightning's Swift Strike" */
+  /** e.g. "Minor Power", "Major Power", "Unique Power: …", "Innate Power: …" */
   type: string;
   name: string;
-  cost: number;
+  /** Null for innate powers (no energy cost). */
+  cost: number | null;
   speed: Speed;
   range: PowerRange | null;
   /** Display string; "Any" for any land. */
@@ -35,6 +43,13 @@ export interface PowerCard {
   elements: Element[];
   artist: string;
   description: string;
+  kind: CardKind;
+  /** Searchable tags, e.g. innate, aspect, unique. */
+  tags: string[];
+  spirit: string | null;
+  /** Set when this power comes from an Aspect card. */
+  aspect: string | null;
+  thresholds?: InnateThreshold[];
   /** Lowercased searchable blob, precomputed at load. */
   searchString: string;
 }
@@ -51,6 +66,10 @@ export const CARD_PROPERTIES = [
   'elements',
   'artist',
   'description',
+  'kind',
+  'tags',
+  'spirit',
+  'aspect',
 ] as const;
 
 export type CardProperty = (typeof CARD_PROPERTIES)[number];
@@ -89,10 +108,19 @@ export function buildSearchString(card: Omit<PowerCard, 'searchString' | 'id'>):
   const parts: string[] = [
     card.set.replace(/&/g, 'and'),
     card.type,
-    String(card.cost),
+    card.cost == null ? 'innate' : String(card.cost),
     card.name,
     card.speed,
+    card.kind,
+    ...(card.tags ?? []),
   ];
+
+  if (card.spirit) {
+    parts.push(card.spirit);
+  }
+  if (card.aspect) {
+    parts.push('aspect', card.aspect);
+  }
 
   if (card.range) {
     parts.push(formatRange(card.range).replace(/&/g, 'and'));
@@ -102,6 +130,15 @@ export function buildSearchString(card: Omit<PowerCard, 'searchString' | 'id'>):
   parts.push(card.elements.join(','));
   parts.push(card.description);
   parts.push(card.artist);
+
+  if (card.thresholds?.length) {
+    for (const th of card.thresholds) {
+      parts.push(
+        ...Object.entries(th.elements).map(([el, n]) => `${n} ${el}`),
+        th.text,
+      );
+    }
+  }
 
   return parts.join(' ').toLowerCase();
 }

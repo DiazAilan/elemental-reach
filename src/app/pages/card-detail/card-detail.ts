@@ -1,3 +1,4 @@
+import { KeyValuePipe } from '@angular/common';
 import { Component, computed, inject } from '@angular/core';
 import { toSignal } from '@angular/core/rxjs-interop';
 import { ActivatedRoute, RouterLink } from '@angular/router';
@@ -8,7 +9,7 @@ import { ElementIcon } from '../../shared/element-icon';
 
 @Component({
   selector: 'app-card-detail-page',
-  imports: [RouterLink, ElementIcon],
+  imports: [RouterLink, ElementIcon, KeyValuePipe],
   templateUrl: './card-detail.html',
   styleUrl: './card-detail.scss',
 })

@@ -82,6 +82,35 @@ dd {
   font-size: 1.05rem;
 }
 
+.thresholds {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 0.85rem;
+}
+
+.thresholds li {
+  padding: 0.75rem 0.85rem;
+  border-radius: 10px;
+  background: color-mix(in oklab, var(--paper) 50%, white);
+  border: 1px solid color-mix(in oklab, var(--ink) 10%, transparent);
+}
+
+.th-els {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  align-items: center;
+  margin-bottom: 0.35rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+
+.muted {
+  color: color-mix(in oklab, var(--ink) 45%, transparent);
+}
+
 .error {
   color: color-mix(in oklab, var(--clay) 80%, black);
 }

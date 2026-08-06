@@ -3,7 +3,14 @@ Spirit Island power card data in powers.json is adapted from:
   https://github.com/oberien/spirit-island-card-katalog
   (SICK – Spirit Island Card Katalog; MIT / Apache-2.0)
 
+Innate Powers and Aspect Unique / Aspect Innate entries are imported from:
+
+  https://spiritislandwiki.com/
+  (Spirit Island Wiki; fan-maintained)
+
 Card text and game materials are owned by Greater Than Games, LLC.
 This project is an unofficial fan work and is not affiliated with Greater Than Games.
 
-Regenerate with: npm run import:powers
+Regenerate with:
+  npm run import:powers   # SICK major/minor/unique cards
+  npm run import:wiki     # wiki innates + aspect powers

@@ -9,13 +9,18 @@
     <header>
       <p class="type">{{ card.type }}</p>
       <h1>{{ card.name }}</h1>
-      <p class="set">{{ card.set }}</p>
+      <p class="set">
+        {{ card.set }}
+        @if (card.aspect) {
+          · Aspect: {{ card.aspect }}
+        }
+      </p>
     </header>
 
     <dl class="stats">
       <div>
         <dt>Cost</dt>
-        <dd>{{ card.cost }}</dd>
+        <dd>{{ card.cost == null ? '—' : card.cost }}</dd>
       </div>
       <div>
         <dt>Speed</dt>
@@ -35,19 +40,45 @@
           <div class="elements">
             @for (el of card.elements; track el) {
               <app-element-icon [element]="el" size="lg" />
+            } @empty {
+              <span class="muted">—</span>
             }
           </div>
         </dd>
       </div>
-      <div class="wide">
-        <dt>Artist</dt>
-        <dd>{{ card.artist }}</dd>
-      </div>
+      @if (card.artist) {
+        <div class="wide">
+          <dt>Artist</dt>
+          <dd>{{ card.artist }}</dd>
+        </div>
+      }
+      @if (card.tags.length) {
+        <div class="wide">
+          <dt>Tags</dt>
+          <dd>{{ card.tags.join(', ') }}</dd>
+        </div>
+      }
     </dl>
 
     <section class="effect">
-      <h2>Effect</h2>
-      <p>{{ card.description }}</p>
+      <h2>{{ card.kind === 'innate' ? 'Thresholds' : 'Effect' }}</h2>
+      @if (card.thresholds?.length) {
+        <ul class="thresholds">
+          @for (th of card.thresholds; track $index) {
+            <li>
+              <div class="th-els">
+                @for (pair of th.elements | keyvalue; track pair.key) {
+                  <span>{{ pair.value }}×</span>
+                  <app-element-icon [element]="$any(pair.key)" />
+                }
+              </div>
+              <p>{{ th.text }}</p>
+            </li>
+          }
+        </ul>
+      } @else {
+        <p>{{ card.description }}</p>
+      }
     </section>
   </article>
 } @else {

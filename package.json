@@ -8,6 +8,7 @@
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "import:powers": "node scripts/import-sick-powers.mjs",
+    "import:wiki": "node scripts/import-wiki-innates-and-aspects.mjs",
     "build:gh-pages": "ng build --base-href=/elemental-reach/"
   },
   "private": true,

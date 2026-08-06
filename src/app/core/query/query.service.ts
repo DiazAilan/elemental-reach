@@ -24,8 +24,11 @@ export class QueryService {
 
 function compareCards(a: PowerCard, b: PowerCard, field: SortField): number {
   switch (field) {
-    case 'cost':
-      return a.cost - b.cost || a.name.localeCompare(b.name);
+    case 'cost': {
+      const ac = a.cost ?? Number.POSITIVE_INFINITY;
+      const bc = b.cost ?? Number.POSITIVE_INFINITY;
+      return ac - bc || a.name.localeCompare(b.name);
+    }
     case 'range': {
       const ar = rangeNumericValue(a.range);
       const br = rangeNumericValue(b.range);

@@ -21,7 +21,11 @@ export class DocsPage {
     { letter: 'N', element: 'Animal' },
   ];
 
-  readonly examples = [
+  readonly examples: { query: string; note: string }[] = [
+    { query: 'innate', note: 'Spirit Innate Powers (board powers)' },
+    { query: 'aspect', note: 'Powers/Innates that come from Aspects' },
+    { query: 'aspect:sparking', note: 'Filter to a specific Aspect' },
+    { query: 'kind:innate e:fa', note: 'Innates that use Fire + Air' },
     { query: 'Gather Dahan', note: 'Free-text match across all fields' },
     { query: '"Dahan and" major', note: 'Exact phrase + type keyword' },
     { query: 'ps', note: 'Plant + Sun via letter shortcuts (packed)' },
@@ -34,7 +38,7 @@ export class DocsPage {
     { query: 'elements:plant elements:earth', note: 'Full element names still work' },
     { query: 'description:"add 1 presence"', note: 'Search effect text only' },
     { query: 'range:sacred range:>=2', note: 'Sacred Site origin and range ≥ 2' },
-    { query: 'cost:<5', note: 'Energy cost less than 5' },
+    { query: 'cost:<5', note: 'Energy cost less than 5 (excludes innates)' },
     { query: 'target:!any', note: 'Exclude Any-land targets' },
     { query: 'speed:fast | speed:slow', note: 'OR between filters (spaces around |)' },
     { query: 'name:call|gift', note: 'OR within one field (no spaces)' },
